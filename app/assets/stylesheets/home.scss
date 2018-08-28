@@ -1,0 +1,132 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$pidgin: #ff8a47;
+$theme_grey: #919191;
+@font-face {
+  font-family: 'pidgin';
+  src: url('ElliotSans-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+	
+}
+.main_header_bar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+	width: 100%;
+	display: flex;
+	background-color: $pidgin;
+	box-shadow: 2px 2px 2px $theme_grey;
+}
+.main_header_bar #a_home{
+	display: block;
+	font-size: 50px;
+	margin: 10px 0px 10px 50px;
+	color: white;
+	font-family: "pidgin";
+	text-decoration: none;
+}
+.search_dorm{
+	margin: 20px 0px 15px 700px;
+	display: block;
+	border: none;
+	height: 30px;
+	width: 250px;
+	font-family: "pidgin";
+	color: $pidgin;
+	text-align: center;
+	font-size: 1rem;
+}
+.btn_login{
+	margin: 15px 0px 15px 75%;
+	height: 40px;
+	width: 80px;
+	box-shadow: 4px 4px 4px black;
+	border: none;
+	background: white;
+	color: black;
+	font-size: 20px;
+	font-family: "pidgin";
+	text-decoration: none;
+	text-align: center;
+	padding-top: 13.5px;
+}
+.btn_login:hover{
+	box-shadow: 1px 1px 1px black;
+}
+.btn_signup{
+	margin: 15px 0px 15px 10px;
+	height: 40px;
+	width: 80px;
+	box-shadow: 4px 4px 4px black;
+	border: none;
+	background: black;
+	color: $pidgin;	
+	font-size: 20px;
+	font-family: "pidgin";
+	text-decoration: none;
+	text-align: center;
+	padding-top: 13.5px;
+}
+.btn_signup:hover{
+	box-shadow: 1px 1px 1px $pidgin;
+}
+.ttl_choose_restaurant{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	font-family: pidgin;
+	text-align: center;
+}
+
+.form_search_restaurant{
+	position: fixed;
+	margin: 200px auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+	width: 60%;
+	display: block;
+	background-color: none;	
+}
+.search_restaurant_fields{
+	height: 35px;
+	width: 600px;
+	margin:  20px auto;
+	display: block;	
+	font-size: 30px;
+	font-family: 'pidgin';
+}
+.txt_search_restaurants{
+	border: 1px solid black;
+	border-radius: 2px;
+	box-shadow: 2px 2px 2px black;
+	height: 40px;
+	width: 480px;
+
+}
+.btn_search_restaurants{
+	border: none;
+	background-color: $pidgin;
+	box-shadow: 2px 2px 2px black;
+	color: white;
+	height: 40px;
+}
+.main_footer_bar{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 80px;
+	background-color: $pidgin;
+	color: white;
+}
+

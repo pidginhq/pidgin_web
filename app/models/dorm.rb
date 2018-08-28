@@ -1,0 +1,2 @@
+class Dorm < ApplicationRecord
+end

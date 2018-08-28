@@ -1,0 +1,16 @@
+<div class="div div_search_results_header">
+	Restaurants
+</div>
+<h1>
+	<div class="div_search_restaurants_results">
+		<!--Restaurant search results-->
+		<%@restaurant_search_results.each do |res|%>
+			<div class="search_restaurant_result">
+					<%= image_tag ( "#{res.profile_image_url}"),  class: "img_restaurant_profileimg" %>
+					<div class="result_section_link">
+						<%=link_to "#{res.restaurant_name}   #{res.id}" , "#", class: "link_to_restaurant"%>
+					</div>
+			</div>
+		<%end%>
+	</div>
+</h1>

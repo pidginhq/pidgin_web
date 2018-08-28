@@ -1,0 +1,55 @@
+// Place all the styles related to the restaurants controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$pidgin: #ff8a47;
+$theme_grey: #919191;
+.div_search_results_header{
+	position: fixed;
+  	top: 0;
+  	left: 0;
+ 	right: 0;
+  	margin: 0 auto;
+	background-color: $pidgin;
+	text-align: center;
+	font-family: "pidgin";
+	color: white;
+	font-size: 50px;
+	box-shadow: 3px 3px 3px $theme_grey;
+}
+.div_search_restaurants_results{
+	display: block;
+	margin-top: 80px;
+	background-color: none;
+	height: 600px;
+
+}
+.search_restaurant_result{
+	display: inline-block;
+	background-color: white;
+	height: 300px;
+	width: 300px;
+	margin: 20px 0px 20px 70px;
+	box-shadow: 5px 5px 5px $pidgin;
+	border: 1px solid $pidgin;
+	min-height: 20px;
+}
+.search_restaurant_result:hover{
+	box-shadow: 1px 1px 1px $pidgin;
+}
+.result_section_link{
+	height: 100px;
+	overflow-x: hidden;
+	overflow-wrap: normal;
+}
+.link_to_restaurant{
+	font-size: 20px;
+	margin: 60px auto;
+	color: $pidgin;
+	font-family: pidgin;
+	text-decoration: none;
+
+}
+.img_restaurant_profileimg{
+	height: 300px;
+	width: 100%;
+}
