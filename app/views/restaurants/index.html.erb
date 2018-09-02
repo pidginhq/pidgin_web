@@ -1,16 +1,25 @@
 <div class="div div_search_results_header">
-	Restaurants
+	<%= form_tag(restaurants_path, method: :get, class: 'form_re_search_restaurant') do %>
+		<div class="div re_search_restaurant_fields">
+  			<%= text_field_tag :restaurant_name, params[:restaurant_name], :placeholder => "Search Again!", class: "txt_re_search_restaurants"%>
+  			<%=submit_tag 'Find Food!', class: "btn_re_search_restaurants" %>
+  		</div>
+	<% end %>		
 </div>
 <h1>
 	<div class="div_search_restaurants_results">
 		<!--Restaurant search results-->
 		<%@restaurant_search_results.each do |res|%>
-			<div class="search_restaurant_result">
-					<%= image_tag ( "#{res.profile_image_url}"),  class: "img_restaurant_profileimg" %>
-					<div class="result_section_link">
-						<%=link_to "#{res.restaurant_name}   #{res.id}" , "#", class: "link_to_restaurant"%>
-					</div>
-			</div>
+			<a href="#" class="search_restaurant_result">
+				<!--Header-->
+				<div class="div result_restaurant_header">
+					<span class="res_name"><%=res.restaurant_name%></span>
+					<span class="res_food_genre"><%=res.price%></span>
+				</div>
+				<div class="div result_restaurant_info">
+					<span class="res_food_type"><%=res.restaurant_food_genre%></span>
+				</div>
+			</a>
 		<%end%>
 	</div>
 </h1>
