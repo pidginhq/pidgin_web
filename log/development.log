@@ -14394,3 +14394,2902 @@ Processing by RestaurantsController#index as HTML
 Completed 200 OK in 57ms (Views: 47.8ms | ActiveRecord: 1.7ms)
 
 
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=S&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:48:29 -0400
+  [1m[35m (4.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"S", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%S%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (33.4ms)
+Completed 200 OK in 1706ms (Views: 1675.7ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=S&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:49:30 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"S", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%S%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 248ms (Views: 118.0ms | ActiveRecord: 26.2ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=S&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:49:49 -0400
+  [1m[35m (7.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"S", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%S%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (33.9ms)
+Completed 200 OK in 458ms (Views: 425.3ms | ActiveRecord: 9.2ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=S&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:49:52 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"S", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%S%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 122ms (Views: 77.6ms | ActiveRecord: 14.9ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=S&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:50:13 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"S", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%S%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 47ms (Views: 41.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/%7Bres.id%7D" for 127.0.0.1 at 2018-09-02 16:50:15 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/%7Bres.id%7D"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/%7Bres.id%7D" for 127.0.0.1 at 2018-09-02 16:50:15 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/%7Bres.id%7D"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/%7Bres.id%7D" for 127.0.0.1 at 2018-09-02 16:50:26 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/%7Bres.id%7D"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/%7Bres.id%7D" for 127.0.0.1 at 2018-09-02 16:50:29 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/%7Bres.id%7D"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/%7Bres.id%7D" for 127.0.0.1 at 2018-09-02 16:50:33 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/%7Bres.id%7D"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/%7Bres.id%7D" for 127.0.0.1 at 2018-09-02 16:50:37 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/%7Bres.id%7D"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/%7Bres.id%7D" for 127.0.0.1 at 2018-09-02 16:50:41 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/%7Bres.id%7D"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/%7Bres.id%7D" for 127.0.0.1 at 2018-09-02 16:50:43 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/%7Bres.id%7D"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/%7Bres.id%7D" for 127.0.0.1 at 2018-09-02 16:50:54 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/%7Bres.id%7D"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=S&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:50:58 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"S", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%S%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 60ms (Views: 55.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants/" for 127.0.0.1 at 2018-09-02 16:50:59 -0400
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 70ms (Views: 59.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/restaurants/" for 127.0.0.1 at 2018-09-02 16:51:05 -0400
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 63ms (Views: 54.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=S&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:51:12 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"S", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%S%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 49ms (Views: 43.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants/" for 127.0.0.1 at 2018-09-02 16:51:14 -0400
+Processing by RestaurantsController#index as HTML
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (6.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 80ms (Views: 66.4ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=S&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:51:59 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"S", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (2.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%S%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (42.1ms)
+Completed 200 OK in 316ms (Views: 249.5ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/restaurants/$res.id" for 127.0.0.1 at 2018-09-02 16:52:02 -0400
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for RestaurantsController):
+  
+actionpack (5.1.6) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.6) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.6) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.6) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/restaurants/$res.id" for 127.0.0.1 at 2018-09-02 16:52:14 -0400
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for RestaurantsController):
+  
+actionpack (5.1.6) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.6) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.6) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.6) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/restaurants/$res.id" for 127.0.0.1 at 2018-09-02 16:52:18 -0400
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for RestaurantsController):
+  
+actionpack (5.1.6) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.6) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.6) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.6) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/restaurants/$res.id" for 127.0.0.1 at 2018-09-02 16:54:54 -0400
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for RestaurantsController):
+  
+actionpack (5.1.6) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.6) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.6) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.6) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=S&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:54:59 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"S", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%S%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 109ms (Views: 91.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:55:01 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 65ms (Views: 57.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:55:06 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 64ms (Views: 59.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 16:55:08 -0400
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for RestaurantsController):
+  
+actionpack (5.1.6) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.6) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.6) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.6) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:55:10 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 66ms (Views: 57.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:55:38 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  Rendered restaurants/index.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/macbookair/Documents/dvpr/pidgin/pidgin_web/app/views/restaurants/index.html.erb:13: syntax error, unexpected ')'
+"search_restaurant_result"do );@output_buffer.safe_append='
+                              ^
+/Users/macbookair/Documents/dvpr/pidgin/pidgin_web/app/views/restaurants/index.html.erb:23: syntax error, unexpected keyword_end, expecting ')'
+		end
+		   ^
+/Users/macbookair/Documents/dvpr/pidgin/pidgin_web/app/views/restaurants/index.html.erb:27: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/Users/macbookair/Documents/dvpr/pidgin/pidgin_web/app/views/restaurants/index.html.erb:29: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/restaurants/index.html.erb:13: syntax error, unexpected ')'
+app/views/restaurants/index.html.erb:23: syntax error, unexpected keyword_end, expecting ')'
+app/views/restaurants/index.html.erb:27: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/restaurants/index.html.erb:29: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:56:00 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 101ms (Views: 90.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:56:05 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 56ms (Views: 49.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:56:07 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 46ms (Views: 40.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:56:11 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  Rendered restaurants/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/macbookair/Documents/dvpr/pidgin/pidgin_web/app/views/restaurants/index.html.erb:13: syntax error, unexpected keyword_do_block
+"search_restaurant_result", do 
+                              ^
+/Users/macbookair/Documents/dvpr/pidgin/pidgin_web/app/views/restaurants/index.html.erb:27: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/restaurants/index.html.erb:13: syntax error, unexpected keyword_do_block
+app/views/restaurants/index.html.erb:27: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:56:16 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 57ms (Views: 50.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:56:33 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 46ms (Views: 41.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:56:37 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 57ms (Views: 50.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:56:37 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 42ms (Views: 36.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:56:39 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 73ms (Views: 65.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:56:46 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 45ms (Views: 40.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants/4" for 127.0.0.1 at 2018-09-02 16:56:47 -0400
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for RestaurantsController):
+  
+actionpack (5.1.6) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.6) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.6) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.6) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:56:49 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 49ms (Views: 43.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:56:56 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 49ms (Views: 42.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 16:56:58 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 46ms (Views: 40.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 16:57:05 -0400
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for RestaurantsController):
+  
+actionpack (5.1.6) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.6) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.6) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.6) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:00:17 -0400
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for RestaurantsController):
+  
+actionpack (5.1.6) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.6) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.6) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.6) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:00:28 -0400
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for RestaurantsController):
+  
+actionpack (5.1.6) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.6) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.6) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.6) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:01:07 -0400
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for RestaurantsController):
+  
+actionpack (5.1.6) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.6) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.6) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.6) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:01:13 -0400
+  
+AbstractController::ActionNotFound (The action 'show' could not be found for RestaurantsController):
+  
+actionpack (5.1.6) lib/abstract_controller/base.rb:119:in `process'
+actionview (5.1.6) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.6) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.6) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:02:10 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (7.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 604ms (Views: 511.0ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:02:31 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (4.7ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 93ms (Views: 53.1ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:02:45 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 81ms (Views: 50.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:03:17 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (2.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 72ms (Views: 65.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:03:37 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 184ms (Views: 177.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:04:22 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 79ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "	background-color:": expected expression (e.g. 1px, bold), was "}"):
+    4:     <title>PidginWeb</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/restaurants.scss:87
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1486102709100398670_70140026919100'
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:04:26 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "	background-color:": expected expression (e.g. 1px, bold), was "}"):
+    4:     <title>PidginWeb</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/restaurants.scss:87
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1486102709100398670_70140026901400'
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:04:32 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 122ms (Views: 117.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:04:40 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "	background-color:": expected expression (e.g. 1px, bold), was "}"):
+    4:     <title>PidginWeb</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/restaurants.scss:87
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__1486102709100398670_70140041947040'
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:04:45 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 109ms (Views: 103.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:04:49 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 52ms (Views: 44.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/4" for 127.0.0.1 at 2018-09-02 17:04:50 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 75ms (Views: 59.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:05:10 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 57ms (Views: 51.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:05:18 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 113ms (Views: 107.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:05:22 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 87ms (Views: 81.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:05:32 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (7.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 189ms (Views: 174.1ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/restaurants/4" for 127.0.0.1 at 2018-09-02 17:05:38 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRestaurant Load (3.8ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 63ms (Views: 46.8ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/restaurants/4" for 127.0.0.1 at 2018-09-02 17:05:58 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 135ms (Views: 128.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants/4" for 127.0.0.1 at 2018-09-02 17:06:07 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 96ms (Views: 89.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants/4" for 127.0.0.1 at 2018-09-02 17:06:14 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 128ms (Views: 122.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants/4" for 127.0.0.1 at 2018-09-02 17:06:31 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 130ms (Views: 123.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants/4" for 127.0.0.1 at 2018-09-02 17:06:36 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 99ms (Views: 93.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurants/4" for 127.0.0.1 at 2018-09-02 17:06:56 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 107ms (Views: 102.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/4" for 127.0.0.1 at 2018-09-02 17:07:05 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 104ms (Views: 99.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:07:08 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (2.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 81ms (Views: 67.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-02 17:07:51 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 81ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:07:54 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 63ms (Views: 57.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:07:55 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 128ms (Views: 114.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:08:26 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 58ms (Views: 52.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:08:27 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (524.0ms)
+Completed 500 Internal Server Error in 549ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `restaurant' for #<#<Class:0x007f957de17c78>:0x007f957fddeb10>
+Did you mean?  @restaurant):
+    1: <!--Restaurant Header Bar-->
+    2: <div class="main_restaurant_header">
+    3: 	<%=restaurant.res_id%>
+    4: </div>
+  
+app/views/restaurants/show.html.erb:3:in `_app_views_restaurants_show_html_erb__3781448504169080145_70140036053720'
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:08:35 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (13.5ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `res_id' for #<Restaurant:0x007f957b26b5c0>
+Did you mean?  restore_id!):
+    1: <!--Restaurant Header Bar-->
+    2: <div class="main_restaurant_header">
+    3: 	<%=@restaurant.res_id%>
+    4: </div>
+  
+app/views/restaurants/show.html.erb:3:in `_app_views_restaurants_show_html_erb__3781448504169080145_70139996492060'
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:08:59 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 47ms (Views: 41.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:09:05 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 74ms (Views: 67.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:09:34 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 3315ms (Views: 3305.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:09:52 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (1.8ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 51ms (Views: 44.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:10:08 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 68ms (Views: 59.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:10:49 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 81ms (Views: 74.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:10:59 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 144ms (Views: 138.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:11:43 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 207ms (Views: 199.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:11:51 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 128ms (Views: 122.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:11:58 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 104ms (Views: 98.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:12:03 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 115ms (Views: 108.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:12:14 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 107ms (Views: 100.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:12:20 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 116ms (Views: 108.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:12:32 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 61ms (Views: 55.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:12:50 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 44ms (Views: 38.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:13:00 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 104ms (Views: 98.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:13:06 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 111ms (Views: 105.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:13:15 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 47ms (Views: 40.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:13:40 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 114ms (Views: 109.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:13:49 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 104ms (Views: 98.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:14:08 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 104ms (Views: 98.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:14:18 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 43.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-02 17:45:24 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (1.9ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 165ms (Views: 124.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:45:28 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 117ms (Views: 101.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=pizza&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:45:37 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"pizza", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%pizza%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 97ms (Views: 87.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:45:47 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 81ms (Views: 71.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:45:49 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 127ms (Views: 119.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:45:56 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 50ms (Views: 44.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=d&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:46:08 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"d", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%d%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 54ms (Views: 48.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-02 17:46:13 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 96ms (Views: 81.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=waffles&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:46:25 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"waffles", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%waffles%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 50ms (Views: 43.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-02 17:46:35 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 69ms (Views: 61.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants/4" for 127.0.0.1 at 2018-09-02 17:46:38 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 67ms (Views: 56.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-07 02:00:14 -0400
+  [1m[35m (4.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 737ms (Views: 710.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 02:00:46 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (39.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (126.4ms)
+Completed 200 OK in 228ms (Views: 128.8ms | ActiveRecord: 91.9ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 02:01:27 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 78ms (Views: 71.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-07 02:01:29 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (7.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 115ms (Views: 87.9ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 02:01:40 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 46ms (Views: 40.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 02:01:43 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (3.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 69ms (Views: 59.8ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 02:08:42 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (1.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 146ms (Views: 111.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 02:09:20 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 104ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (Undefined variable: "$pidgin".):
+    4:     <title>PidginWeb</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/restaurant_page.scss:10
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__485668958648563605_70256871522760'
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 02:09:43 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (1.9ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 417ms (Views: 369.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 02:20:37 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (2.9ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 161ms (Views: 121.1ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 02:21:37 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (4.7ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 167ms (Views: 151.7ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 02:26:12 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 70ms (Views: 62.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 02:28:26 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 53ms (Views: 47.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 02:54:33 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (2.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 130ms (Views: 101.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 02:55:05 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (20.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (56.2ms)
+Completed 200 OK in 136ms (Views: 106.8ms | ActiveRecord: 20.4ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 02:55:11 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 80ms (Views: 72.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 02:55:14 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (4.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 91ms (Views: 80.4ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 02:55:49 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 66ms (Views: 59.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-07 02:55:52 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 91ms (Views: 78.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 02:55:56 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 85ms (Views: 75.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 02:56:40 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 73ms (Views: 66.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 02:58:28 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 170ms (Views: 164.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 02:58:39 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 101ms (Views: 95.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 02:59:17 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 98ms (Views: 93.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 02:59:34 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 106ms (Views: 100.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 02:59:43 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 94ms (Views: 88.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 02:59:49 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 70ms (Views: 64.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 02:59:52 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 44ms (Views: 38.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 03:00:06 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 101ms (Views: 93.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 03:00:14 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 91ms (Views: 85.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 03:00:19 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 45ms (Views: 39.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 03:00:26 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 46ms (Views: 40.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 03:00:39 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 58ms (Views: 52.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 03:00:47 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 79ms (Views: 72.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 03:01:11 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 96ms (Views: 89.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 03:01:20 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 89ms (Views: 83.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 03:01:27 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 102ms (Views: 94.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 03:01:39 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 106ms (Views: 100.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 03:01:51 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 100ms (Views: 94.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 03:01:58 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 93ms (Views: 87.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 03:02:27 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 105ms (Views: 100.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/6" for 127.0.0.1 at 2018-09-07 03:04:15 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 90ms (Views: 84.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 03:04:24 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (20.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 129ms (Views: 98.0ms | ActiveRecord: 20.9ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-07 03:04:25 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 83ms (Views: 73.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-07 03:04:37 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 66ms (Views: 56.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-07 03:05:00 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 70ms (Views: 64.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-07 03:05:33 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 125ms (Views: 116.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-07 03:05:42 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 106ms (Views: 96.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-07 03:05:46 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 65ms (Views: 59.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-07 03:06:05 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 52ms (Views: 46.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-07 03:06:19 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 96ms (Views: 90.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-07 03:06:35 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 101ms (Views: 95.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-07 03:06:42 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 93ms (Views: 87.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-07 03:07:03 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (2.2ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 130ms (Views: 118.0ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-07 03:07:14 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.4ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 97ms (Views: 91.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-07 03:07:28 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 104ms (Views: 98.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-07 10:46:13 -0400
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 674ms (Views: 649.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-07 10:51:50 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 197ms (Views: 162.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:52:06 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `lowercase' for "s":String):
+  
+app/controllers/restaurants_controller.rb:3:in `index'
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:52:17 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `lowercase!' for "s":String):
+  
+app/controllers/restaurants_controller.rb:3:in `index'
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:52:27 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (25.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (192.2ms)
+Completed 200 OK in 269ms (Views: 119.1ms | ActiveRecord: 140.6ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:52:42 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `lowercase' for "s":String):
+  
+app/controllers/restaurants_controller.rb:4:in `index'
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:52:53 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (23.9ms)
+Completed 200 OK in 85ms (Views: 68.1ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:52:59 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `lowercase' for "s":String):
+  
+app/controllers/restaurants_controller.rb:3:in `index'
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:53:05 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `lowercase!' for "s":String):
+  
+app/controllers/restaurants_controller.rb:3:in `index'
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:54:26 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (28.8ms)
+Completed 200 OK in 115ms (Views: 95.7ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:54:38 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (2.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 63ms (Views: 55.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:54:46 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 55ms (Views: 49.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/restaurants/5" for 127.0.0.1 at 2018-09-07 10:54:48 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 97ms (Views: 58.6ms | ActiveRecord: 14.9ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:55:13 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (29.2ms)
+Completed 200 OK in 83ms (Views: 69.2ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:55:41 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (57.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name.to_s LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (67.6ms)
+Completed 500 Internal Server Error in 96ms (ActiveRecord: 57.9ms)
+
+
+  
+ActionView::Template::Error (PG::UndefinedTable: ERROR:  missing FROM-clause entry for table "restaurant_name"
+LINE 1: SELECT "restaurants".* FROM "restaurants" WHERE (restaurant_...
+                                                         ^
+: SELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name.to_s LIKE '%s%')):
+    10: 	<!--Container for all of the restaurant results-->
+    11: 	<div class="div_search_restaurants_results">
+    12: 		<!--Restaurant search results-->
+    13: 		<%@restaurant_search_results.each do |res|%>
+    14: 			<%=link_to "restaurants/#{res.id}" , class: "search_restaurant_result" do %>
+    15: 				<!--Header (Restaurant Name and Price-->
+    16: 				<div class="div result_restaurant_header">
+  
+app/views/restaurants/index.html.erb:13:in `_app_views_restaurants_index_html_erb__4076512566265131338_70246571689500'
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:55:56 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 87ms (Views: 75.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:56:27 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 100ms (Views: 87.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:56:29 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 50ms (Views: 45.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Sean+&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:56:40 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Sean ", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Sean %')[0m
+  Rendered restaurants/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 55ms (Views: 49.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Sean+maina&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:56:47 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Sean maina", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Sean maina%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 58ms (Views: 52.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Sean+maina&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:57:04 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Sean maina", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (5.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Sean maina%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (39.2ms)
+Completed 200 OK in 126ms (Views: 87.4ms | ActiveRecord: 29.4ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Sean&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:57:10 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Sean", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Sean%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 57ms (Views: 51.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:57:14 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%s%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (29.3ms)
+Completed 200 OK in 83ms (Views: 71.9ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:57:26 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 85ms (Views: 78.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:58:19 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 90ms (Views: 71.7ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=Mexican&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:58:26 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"Mexican", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Mexican%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 50ms (Views: 41.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=grill&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:58:29 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"grill", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Grill%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 47ms (Views: 41.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=waffles&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 10:58:31 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"waffles", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Waffles%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 47ms (Views: 41.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:09:16 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.2ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (56.8ms)
+Completed 200 OK in 159ms (Views: 121.2ms | ActiveRecord: 18.6ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=mexican&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:09:32 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"mexican", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Mexican%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 98ms (Views: 88.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=mexican&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:10:27 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"mexican", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Mexican%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 80ms (Views: 72.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=waffles&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:14:04 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"waffles", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  Rendered restaurants/index.html.erb within layouts/application (8.7ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/macbookair/Documents/dvpr/pidgin/pidgin_web/app/views/restaurants/index.html.erb:4: syntax error, unexpected tCONSTANT, expecting ')'
+:placeholder => " Search "Food" ", class: "txt_re_search_res
+                              ^):
+  
+app/views/restaurants/index.html.erb:4: syntax error, unexpected tCONSTANT, expecting ')'
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=waffles&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:15:44 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"waffles", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Waffles%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 79ms (Views: 71.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=waffles&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:16:00 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"waffles", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.4ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Waffles%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 64ms (Views: 55.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=waffles&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:17:11 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"waffles", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Waffles%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (33.5ms)
+Completed 200 OK in 108ms (Views: 84.7ms | ActiveRecord: 10.8ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_name=chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:17:42 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_name"=>"chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 116ms (Views: 108.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:17:44 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_search"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 60ms (Views: 53.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:17:52 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_search"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 51ms (Views: 46.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:17:57 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_search"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 55ms (Views: 50.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:18:00 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_search"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 76ms (Views: 69.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:18:08 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_search"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.9ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 57ms (Views: 52.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:18:42 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_search"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (26.2ms)
+Completed 200 OK in 86ms (Views: 75.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-07 11:18:46 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 51ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-07 11:18:58 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 89ms (Views: 75.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:19:00 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_search"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (45.3ms)
+Completed 200 OK in 117ms (Views: 109.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:19:09 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_search"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 69ms (Views: 60.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:19:13 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_search"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.6ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 83ms (Views: 71.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:19:15 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_search"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.1ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 75ms (Views: 68.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=Sean&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:19:21 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_search"=>"Sean", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 50ms (Views: 44.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:19:32 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_search"=>"chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.5ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 66ms (Views: 59.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:20:09 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_search"=>"chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 72ms (Views: 56.1ms | ActiveRecord: 6.2ms)
+
+
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for 127.0.0.1 at 2018-09-07 11:22:06 -0400
+  [1m[35m (7.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 538ms (Views: 514.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:22:10 -0400
+  
+SyntaxError (/Users/macbookair/Documents/dvpr/pidgin/pidgin_web/app/controllers/restaurants_controller.rb:4: unterminated string meets end of file
+/Users/macbookair/Documents/dvpr/pidgin/pidgin_web/app/controllers/restaurants_controller.rb:4: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+  
+app/controllers/restaurants_controller.rb:4: unterminated string meets end of file
+app/controllers/restaurants_controller.rb:4: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:28:30 -0400
+  
+SyntaxError (/Users/macbookair/Documents/dvpr/pidgin/pidgin_web/app/controllers/restaurants_controller.rb:4: unterminated string meets end of file
+/Users/macbookair/Documents/dvpr/pidgin/pidgin_web/app/controllers/restaurants_controller.rb:4: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+  
+app/controllers/restaurants_controller.rb:4: unterminated string meets end of file
+app/controllers/restaurants_controller.rb:4: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:28:42 -0400
+  
+SyntaxError (/Users/macbookair/Documents/dvpr/pidgin/pidgin_web/app/controllers/restaurants_controller.rb:4: unterminated string meets end of file
+/Users/macbookair/Documents/dvpr/pidgin/pidgin_web/app/controllers/restaurants_controller.rb:4: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+  
+app/controllers/restaurants_controller.rb:4: unterminated string meets end of file
+app/controllers/restaurants_controller.rb:4: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:29:22 -0400
+  
+SyntaxError (/Users/macbookair/Documents/dvpr/pidgin/pidgin_web/app/controllers/restaurants_controller.rb:4: syntax error, unexpected ',', expecting ')'
+restaurant_food_genre LIKE ?", "%#{params[:restaurant_query]
+                              ^
+/Users/macbookair/Documents/dvpr/pidgin/pidgin_web/app/controllers/restaurants_controller.rb:4: unterminated string meets end of file
+/Users/macbookair/Documents/dvpr/pidgin/pidgin_web/app/controllers/restaurants_controller.rb:4: syntax error, unexpected end-of-input, expecting tSTRING_DEND):
+  
+app/controllers/restaurants_controller.rb:4: syntax error, unexpected ',', expecting ')'
+app/controllers/restaurants_controller.rb:4: unterminated string meets end of file
+app/controllers/restaurants_controller.rb:4: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:29:52 -0400
+  
+SyntaxError (/Users/macbookair/Documents/dvpr/pidgin/pidgin_web/app/controllers/restaurants_controller.rb:4: syntax error, unexpected ',', expecting ')'
+restaurant_food_genre LIKE ?", "%#{params[:restaurant_query]
+                              ^):
+  
+app/controllers/restaurants_controller.rb:4: syntax error, unexpected ',', expecting ')'
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:30:59 -0400
+  
+SyntaxError (/Users/macbookair/Documents/dvpr/pidgin/pidgin_web/app/controllers/restaurants_controller.rb:4: syntax error, unexpected ',', expecting ')'
+restaurant_food_genre LIKE ?", "%#{params[:restaurant_query]
+                              ^):
+  
+app/controllers/restaurants_controller.rb:4: syntax error, unexpected ',', expecting ')'
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:33:46 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_search"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (9.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (135.7ms)
+Completed 200 OK in 224ms (Views: 177.8ms | ActiveRecord: 29.1ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=p&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:35:03 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_search"=>"p", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (2.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 64ms (Views: 54.3ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_search=p&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:35:30 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_search"=>"p", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (42.3ms)
+Completed 200 OK in 118ms (Views: 89.5ms | ActiveRecord: 15.8ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_query=s&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:35:32 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_query"=>"s", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%S%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 66ms (Views: 58.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_query=p&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:35:35 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_query"=>"p", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.0ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%P%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 64ms (Views: 57.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_query=p&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:36:00 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_query"=>"p", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.8ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%P%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 77ms (Views: 71.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-09-07 11:36:07 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 94ms (Views: 86.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_query=chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:36:10 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_query"=>"chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (0.7ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 60ms (Views: 51.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/restaurants/4" for 127.0.0.1 at 2018-09-07 11:37:54 -0400
+Processing by RestaurantsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRestaurant Load (7.3ms)[0m  [1m[34mSELECT  "restaurants".* FROM "restaurants" WHERE "restaurants"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering restaurants/show.html.erb within layouts/application
+  Rendered restaurants/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 107ms (Views: 56.4ms | ActiveRecord: 33.2ms)
+
+
+Started GET "/restaurants?utf8=%E2%9C%93&restaurant_query=chipotle&commit=Find+Food%21" for 127.0.0.1 at 2018-09-07 11:39:34 -0400
+Processing by RestaurantsController#index as HTML
+  Parameters: {"utf8"=>"✓", "restaurant_query"=>"chipotle", "commit"=>"Find Food!"}
+  Rendering restaurants/index.html.erb within layouts/application
+  [1m[36mRestaurant Load (1.3ms)[0m  [1m[34mSELECT "restaurants".* FROM "restaurants" WHERE (restaurant_name LIKE '%Chipotle%')[0m
+  Rendered restaurants/index.html.erb within layouts/application (25.4ms)
+Completed 200 OK in 170ms (Views: 136.3ms | ActiveRecord: 1.3ms)
+
+

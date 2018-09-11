@@ -49,8 +49,8 @@ $theme_grey: #919191;
 	width: 800px;
 	margin: 20px 0px 20px 70px;
 	background-color: $pidgin;
-	border: 1px solid $pidgin;
-	box-shadow: 5px 5px 5px black;
+	border: 1px solid $theme_grey;
+	box-shadow: 5px 5px 5px $theme_grey;
 	border-radius: 3px;
 	text-decoration: none;
 }
@@ -80,3 +80,5 @@ $theme_grey: #919191;
 	font-size: 20px;
 	margin: 10px 0px 0px 30px;
 }
+
+

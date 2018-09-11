@@ -11,7 +11,7 @@
 <!--Customer Order/Client Signup Option-->
 	<%= form_tag(restaurants_path, method: :get, class: 'form_search_restaurant') do %>
 		<div class="div search_restaurant_fields">
-  			<%= text_field_tag :restaurant_name, params[:restaurant_name], :placeholder => 'Search food...now:', class: "txt_search_restaurants"%>
+  			<%= text_field_tag :restaurant_query, params[:restaurant_query], :placeholder => 'Search food...now:', class: "txt_search_restaurants"%>
   			<%=submit_tag 'Find Food!', class: "btn_search_restaurants" %>
   		</div>
 	<% end %>		
