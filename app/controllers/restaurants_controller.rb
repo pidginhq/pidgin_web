@@ -4,8 +4,11 @@ class RestaurantsController < ApplicationController
 		@restaurant_search_results = Restaurant.where('restaurant_name LIKE ?', "%#{params[:restaurant_query].to_s.capitalize}%");
 	end
 	def show
-		@restaurant = Restaurant.find(params[:id])
-		puts @restaurant
+		#First, retrieve restaurant
+		@restaurant = Restaurant.find(params[:id]);
+		
+		
+
 	end
 	def restaurant_params
   		params.require(:restaurant).permit(:restaurant_name)
