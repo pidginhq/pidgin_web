@@ -4,32 +4,38 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-$pidgin: #ff8a47;
+
+//We declare our pidgin colors here
+$pidgin: #F2975a;
+$pidgin_dark: #ef775b;
 $theme_grey: #919191;
-@font-face {
-  font-family: "pidgin";
-  src: url('ElliotSans-Medium.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+
+//Mixin linear-gradient here to call for main header section
+
+@mixin linear-gradient($direction, $color-stops...) {
+  background: nth(nth($color-stops, 1), 1);
+  background: -webkit-linear-gradient(legacy-direction($direction), $color-stops);
+  background: linear-gradient($direction, $color-stops);
 }
-body{
-	
+
+html{
+	font-size: 20px;
 }
 .main_header_bar{
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;	
-	height: 100px;
+	min-height: 15rem;
 	width: 100%;
 	display: flex;
-	background-color: $pidgin;
+	@include linear-gradient($pidgin, $pidgin_dark);
 	box-shadow: 2px 2px 2px $theme_grey;
 }
 .main_header_bar #a_home{
 	display: block;
-	font-size: 50px;
-	margin: 10px 0px 10px 50px;
+	font-size: 2.75rem;
+	margin: 20px 0px 10px 50px;
 	color: white;
 	font-family: "pidgin";
 	text-decoration: none;
@@ -40,7 +46,7 @@ body{
 	border: none;
 	height: 30px;
 	width: 250px;
-	font-family: "pidgin";
+	font-family: "pidgin-body";
 	color: $pidgin;
 	text-align: center;
 	font-size: 1rem;
@@ -54,7 +60,7 @@ body{
 	background: white;
 	color: black;
 	font-size: 20px;
-	font-family: "pidgin";
+	font-family: "pidgin-body";
 	text-decoration: none;
 	text-align: center;
 	padding-top: 13.5px;
@@ -71,7 +77,7 @@ body{
 	background: black;
 	color: $pidgin;	
 	font-size: 20px;
-	font-family: "pidgin";
+	font-family: "pidgin-body";
 	text-decoration: none;
 	text-align: center;
 	padding-top: 13.5px;
@@ -88,24 +94,31 @@ body{
 
 .form_search_restaurant{
 	position: fixed;
-	margin: 200px auto;
+	margin: 5rem auto;
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 100px;
+	min-height: 5rem;
 	width: 60%;
 	display: block;
-	background-color: none;	
 }
-.search_restaurant_fields{
-	height: 35px;
-	width: 600px;
-	margin:  20px auto;
+.form_search_restaurant h1{
+	color: white;
+	font-family: "pidgin-body";
+	text-align: center;
+}
+.form_search_restaurant .search_restaurant_fields{
+	min-height: 1.75rem;
+	width: 35rem;
+	margin:  1rem auto;
 	display: block;	
 	font-size: 30px;
 	font-family: 'pidgin';
 }
 .txt_search_restaurants{
+	margin: 0 auto;
+	display: block;
+	text-align: center;
 	border: 1px solid black;
 	border-radius: 2px;
 	box-shadow: 2px 2px 2px black;

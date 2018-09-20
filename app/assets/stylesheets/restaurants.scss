@@ -1,7 +1,7 @@
 // Place all the styles related to the restaurants controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-$pidgin: #ff8a47;
+$pidgin: #f2975a;
 $theme_grey: #919191;
 
 
@@ -15,7 +15,7 @@ $theme_grey: #919191;
   	height: 100px;
 	background-color: $pidgin;
 	text-align: center;
-	font-family: "pidgin";
+	font-family: "pidgin-body";
 	color: white;
 	font-size: 50px;
 	box-shadow: 3px 3px 3px $theme_grey;
@@ -40,7 +40,7 @@ $theme_grey: #919191;
 	margin-top: 100px;
 	background-color: none;
 	height: 600px;
-	background-color: none;
+
 }
 /*Individual DIV as a result of search query*/
 .search_restaurant_result{
@@ -53,13 +53,14 @@ $theme_grey: #919191;
 	box-shadow: 5px 5px 5px $theme_grey;
 	border-radius: 3px;
 	text-decoration: none;
+	font-family: "pidgin-body";
 }
 .search_restaurant_result:hover{
 	box-shadow: 1px 1px 1px $pidgin;
 }
 .result_restaurant_header{
 	font-size: 25px;
-	font-family: pidgin;
+	font-family: "pidgin-body";
 	margin: 15px 0px 0px 25px;
 	color: white;
 	display: flex;
@@ -76,7 +77,7 @@ $theme_grey: #919191;
 }
 .result_restaurant_info{
 	color: white;
-	font-family: pidgin;
+	font-family: "pidgin-body";
 	font-size: 20px;
 	margin: 10px 0px 0px 30px;
 }

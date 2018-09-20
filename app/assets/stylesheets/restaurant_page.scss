@@ -1,7 +1,7 @@
-$pidgin: #ff8a47;
+$pidgin: #f2975a;
 $theme_grey: #919191;
 
-/* Restaurant Page*/
+/* Stylesheet for Indvi Page*/
 .main_restaurant_header{
 	position: fixed;
 	top: 0;
@@ -10,7 +10,7 @@ $theme_grey: #919191;
 	height: 100px;
 	width: 100%;
 	background-color: $pidgin;
-	font-family: pidgin;
+	font-family: "pidgin-body";
 }
 .header_restaurant_name{
 	color: white;
@@ -20,17 +20,17 @@ $theme_grey: #919191;
 	font-size: 30px;
 	margin-top: 10px;
 }
-.menu_section{
+.section_menu{
 	margin-top: 125px;
 	left: 0;
 	right: 0;
 	height: 400px;
 	border-top: 1px solid $theme_grey;
 }
-.menu_section_header{
+.menu_header{
 	text-align: center;
 	font-size: 30px;
-	font-family: pidgin;
+	font-family: "pidgin-body";
 	color: $pidgin;
 	text-decoration: underline;
 }

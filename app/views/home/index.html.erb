@@ -10,9 +10,10 @@
 
 <!--Customer Order/Client Signup Option-->
 	<%= form_tag(restaurants_path, method: :get, class: 'form_search_restaurant') do %>
+		<h1 class="search_restaurant_header"">Why Drive When You Can Fly?</h1>
 		<div class="div search_restaurant_fields">
   			<%= text_field_tag :restaurant_query, params[:restaurant_query], :placeholder => 'Search food...now:', class: "txt_search_restaurants"%>
-  			<%=submit_tag 'Find Food!', class: "btn_search_restaurants" %>
+  			
   		</div>
 	<% end %>		
 
