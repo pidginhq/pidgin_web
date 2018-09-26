@@ -21,52 +21,61 @@ $theme_grey: #919191;
 html{
 	font-size: 20px;
 }
+//This is the grand orange box that serves as the entire header for the viewer
 .main_header_bar{
-	position: fixed;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 25rem;
+	@include linear-gradient($pidgin_dark, $pidgin)
+		
+}
+//This bar is the top header par partitioned by the white bar.
+.top_header_bar{
+	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;	
-	min-height: 15rem;
+	min-height: 3rem;
 	width: 100%;
 	display: flex;
-	@include linear-gradient($pidgin, $pidgin_dark);
-	box-shadow: 2px 2px 2px $theme_grey;
+	background: transparent;
+	border-bottom: 1px solid white;
 }
-.main_header_bar #a_home{
+//The #a_home reroutes back to the home/index page
+.top_header_bar #a_home{
 	display: block;
 	font-size: 2.75rem;
-	margin: 20px 0px 10px 50px;
+	margin: 1rem 0px 0.5rem 10rem;
 	color: white;
 	font-family: "pidgin";
 	text-decoration: none;
 }
-.search_dorm{
-	margin: 20px 0px 15px 700px;
-	display: block;
-	border: none;
-	height: 30px;
-	width: 250px;
-	font-family: "pidgin-body";
-	color: $pidgin;
-	text-align: center;
-	font-size: 1rem;
+//Header section for the "loader", "login", and "signup" buttons
+.top_header_bar .header_section_btn{
+	margin-left: 35%;
+	min-width: 20rem;
+	display: flex;
 }
-.btn_login{
-	margin: 15px 0px 15px 65%;
+//Overall CSS for the three header buttons
+.header_section_btn .btn_header{
+	postion: relative;
+	margin: .75rem 0px 0.75px 10%;
 	height: 40px;
 	width: 80px;
-	box-shadow: 4px 4px 4px black;
-	border: none;
-	background: white;
-	color: black;
+	border: 1px solid white;
+	background: transparent;
+	color: white;
 	font-size: 20px;
 	font-family: "pidgin-body";
 	text-decoration: none;
 	text-align: center;
 	padding-top: 13.5px;
 }
-.btn_login:hover{
-	box-shadow: 1px 1px 1px black;
+//Hover on buttons
+.btn_header:hover{
+	border: 3px solid white;
 }
 .btn_signup{
 	margin: 15px 0px 15px 10px;
@@ -91,31 +100,42 @@ html{
 	font-family: pidgin;
 	text-align: center;
 }
-
-.form_search_restaurant{
-	position: fixed;
-	margin: 5rem auto;
+//Food image in main header
+.main_header_bar .img_header_food{
+	margin: 10rem 10rem 10rem 0rem;
+	height: 20rem;
+	width: 30rem;
+	background-image: image-url("images/img_pizza_box.png");
+}
+.form_register_pidgin{
+	position: absolute;
+	margin: 7.5rem 0rem 0rem 35rem;
 	top: 0;
 	left: 0;
 	right: 0;
 	min-height: 5rem;
-	width: 60%;
+	width: 25rem;
 	display: block;
 }
-.form_search_restaurant h1{
+.form_register_pidgin .pidgin_signup_header{
 	color: white;
 	font-family: "pidgin-body";
-	text-align: center;
+	font-size: 3rem;
+	text-align: right;
 }
-.form_search_restaurant .search_restaurant_fields{
-	min-height: 1.75rem;
-	width: 35rem;
-	margin:  1rem auto;
+.form_register_pidgin .pidgin_signup_subheader{
+	color: white;
+	font-family: "pidgin-body";
+	font-size: 1.5rem;
+	text-align: right;
+}
+.form_register_pidgin .pidgin_signup_field{
+	margin: 1.5rem auto;
 	display: block;	
 	font-size: 30px;
 	font-family: 'pidgin';
 }
-.txt_search_restaurants{
+.txt_enter_email{
 	margin: 0 auto;
 	display: block;
 	text-align: center;
@@ -126,6 +146,11 @@ html{
 	width: 480px;
 
 }
+//Email field
+.txt_enter_email:hover{
+	height: 2.5rem;
+	width: 500px;
+}
 .btn_search_restaurants{
 	border: none;
 	background-color: $pidgin;
@@ -133,6 +158,15 @@ html{
 	color: white;
 	height: 40px;
 }
+
+.section_why_pidgin{
+	margin: 30rem 0rem 0rem 5rem;
+	font-size: 3rem;
+
+}
+
+
+
 .main_footer_bar{
 	position: fixed;
 	bottom: 0;

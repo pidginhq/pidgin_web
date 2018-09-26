@@ -2,6 +2,9 @@ $pidgin: #f2975a;
 $theme_grey: #919191;
 
 /* Stylesheet for Indvi Page*/
+body{
+	font-family: "pidgin-body";
+}
 .main_restaurant_header{
 	position: fixed;
 	top: 0;
@@ -33,4 +36,14 @@ $theme_grey: #919191;
 	font-family: "pidgin-body";
 	color: $pidgin;
 	text-decoration: underline;
+}
+.menu_section{
+	color: $pidgin;
+	margin-left: 5%;
+	font-size: 1.5rem;
+	font-family: "pidgin-body";
+	text-decoration: underline;
+}
+.menu_item{
+	margin-left: 10%;
 }

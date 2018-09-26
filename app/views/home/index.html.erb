@@ -1,23 +1,33 @@
 <!--Header Bar-->
 <div class="main_header_bar">
-	<!--pidgin logo-->
-	<a id="a_home" href="#">pidgin</a>	
-	<!--signup-->
-	<%= link_to 'Login', '#', class: 'btn_login' %>
-	<%= link_to 'Signup', 'signup', class: 'btn_signup' %>
-
-</div>
-
-<!--Customer Order/Client Signup Option-->
-	<%= form_tag(restaurants_path, method: :get, class: 'form_search_restaurant') do %>
-		<h1 class="search_restaurant_header"">Why Drive When You Can Fly?</h1>
-		<div class="div search_restaurant_fields">
-  			<%= text_field_tag :restaurant_query, params[:restaurant_query], :placeholder => 'Search food...now:', class: "txt_search_restaurants"%>
-  			
+	<div class="top_header_bar">
+		<!--pidgin logo-->
+		<a id="a_home" href="#">pidgin</a>	
+		<!--Loader, Login, Signup Buttons-->
+		<div class="div header_section_btn">
+			<%= link_to 'Loader', '#', class: 'btn_header' %>
+			<%= link_to 'Login', '#', class: 'btn_header' %>
+			<%= link_to 'Signup', 'signup', class: 'btn_header' %>
+		</div>
+	</div>
+	
+	<%= image_tag "img_pizza_box.png", class: "img_header_food"%>
+	<!--Customer Order/Client Signup Option-->
+	<%= form_tag(restaurants_path, method: :get, class: 'form_register_pidgin') do %>
+		<div class="pidgin_signup_header">Why Drive When You Can Fly?</div><br>
+		<div class="pidgin_signup_subheader">Drone delivery ensures the fastest delivery, every time</div>
+		<div class="div pidgin_signup_field">
+  			<%= text_field_tag :restaurant_query, params[:restaurant_query], :placeholder => 'Join our mailing list to learn and participate in out first alpha test', class: "txt_enter_email"%>	
   		</div>
 	<% end %>		
+</div>
 
+<div class="div section_why_pidgin">
+	<h1>Why Pidgin?</h1>
 	
+</div>
+<!--
 <div class="main_footer_bar">
 	<p>&copy; 2018 pidgin.com<p>
 </div>
+-->

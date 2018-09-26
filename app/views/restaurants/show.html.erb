@@ -10,15 +10,15 @@
 	<p class="p menu_header">Menu</p>
 	<!-- Loop through menu_items and retrieve menu sections -->
 	<%@menu_sections.each do |element|%>
-		<p class="p_menu_section">
+		<p class="p menu_section">
 			<%=element.menu_section%>
 		</p>
 		<%@menu_items.each do |menu_item|%>
 			<%if menu_item.menu_section == element.menu_section%>
 				<div class="menu_item">
 					<%=menu_item.menu_item_name%>
-				</div>
-			<%end%>
+				</div><br>
+			<%end%>a
 		<%end%>
 	<%end%>
 	
