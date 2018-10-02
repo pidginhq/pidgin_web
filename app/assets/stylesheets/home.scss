@@ -54,16 +54,17 @@ html{
 }
 //Header section for the "loader", "login", and "signup" buttons
 .top_header_bar .header_section_btn{
-	margin-left: 35%;
-	min-width: 20rem;
+	position: absolute;
+	margin-left: 60%;
+	min-width: 22rem;
 	display: flex;
 }
 //Overall CSS for the three header buttons
 .header_section_btn .btn_header{
 	postion: relative;
-	margin: .75rem 0px 0.75px 10%;
-	height: 40px;
-	width: 80px;
+	margin: .75rem 0px 0.75px 15%;
+	min-height: 2rem;
+	min-width: 4rem;
 	border: 1px solid white;
 	background: transparent;
 	color: white;
@@ -76,23 +77,6 @@ html{
 //Hover on buttons
 .btn_header:hover{
 	border: 3px solid white;
-}
-.btn_signup{
-	margin: 15px 0px 15px 10px;
-	height: 40px;
-	width: 80px;
-	box-shadow: 4px 4px 4px black;
-	border: none;
-	background: black;
-	color: $pidgin;	
-	font-size: 20px;
-	font-family: "pidgin-body";
-	text-decoration: none;
-	text-align: center;
-	padding-top: 13.5px;
-}
-.btn_signup:hover{
-	box-shadow: 1px 1px 1px $pidgin;
 }
 .ttl_choose_restaurant{
 	color: white;
@@ -107,34 +91,39 @@ html{
 	width: 30rem;
 	background-image: image-url("images/img_pizza_box.png");
 }
+/* This div lives in the large orange header for the register section*/
 .form_register_pidgin{
 	position: absolute;
-	margin: 7.5rem 0rem 0rem 35rem;
+	margin: 7.5rem 0rem 0rem 60%;
 	top: 0;
 	left: 0;
 	right: 0;
 	min-height: 5rem;
-	width: 25rem;
+	max-width: 22rem;
 	display: block;
 }
+// Slogan goes here ("Why drive...")
 .form_register_pidgin .pidgin_signup_header{
 	color: white;
 	font-family: "pidgin-body";
-	font-size: 3rem;
+	font-size: 2.75rem;
 	text-align: right;
 }
+// Drone delivery ensures..
 .form_register_pidgin .pidgin_signup_subheader{
 	color: white;
-	font-family: "pidgin-body";
-	font-size: 1.5rem;
+	font-family: "reem-kufi";
+	font-size: 1.65rem;
 	text-align: right;
 }
+//Section for entering email (for email updates)
 .form_register_pidgin .pidgin_signup_field{
-	margin: 1.5rem auto;
+	margin: 0.75rem auto;
 	display: block;	
 	font-size: 30px;
 	font-family: 'pidgin';
 }
+//Email bar for updates on Pidgin
 .txt_enter_email{
 	margin: 0 auto;
 	display: block;
@@ -143,7 +132,7 @@ html{
 	border-radius: 2px;
 	box-shadow: 2px 2px 2px black;
 	height: 40px;
-	width: 480px;
+	min-width: 100%;
 
 }
 //Email field

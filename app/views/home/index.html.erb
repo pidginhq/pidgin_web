@@ -7,11 +7,12 @@
 		<div class="div header_section_btn">
 			<%= link_to 'Loader', '#', class: 'btn_header' %>
 			<%= link_to 'Login', '#', class: 'btn_header' %>
-			<%= link_to 'Signup', 'signup', class: 'btn_header' %>
+			<%= link_to 'Signup', '#', class: 'btn_header' %>
 		</div>
 	</div>
 	
 	<%= image_tag "img_pizza_box.png", class: "img_header_food"%>
+	
 	<!--Customer Order/Client Signup Option-->
 	<%= form_tag(restaurants_path, method: :get, class: 'form_register_pidgin') do %>
 		<div class="pidgin_signup_header">Why Drive When You Can Fly?</div><br>
@@ -19,7 +20,9 @@
 		<div class="div pidgin_signup_field">
   			<%= text_field_tag :restaurant_query, params[:restaurant_query], :placeholder => 'Join our mailing list to learn and participate in out first alpha test', class: "txt_enter_email"%>	
   		</div>
-	<% end %>		
+	<% end %>	
+
+		
 </div>
 
 <div class="div section_why_pidgin">
