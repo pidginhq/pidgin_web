@@ -1,21 +1,21 @@
 //Declare pidgin's logo font here
 @font-face {
   font-family: "pidgin";
-  src: url('Condition.ttf') format('truetype');
+  src: font-url('Condition.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 //Body Font
 @font-face {
   font-family: "pidgin-body";
-  src: url('ElliotSans-Medium.ttf') format('truetype');
+  src: font-url('ElliotSans-Medium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 //Reem Kufi
 @font-face {
   font-family: "reem-kufi";
-  src: url('ReemKufi-Regular.ttf') format('truetype');
+  src: font-url('ReemKufi-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
