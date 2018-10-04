@@ -5,16 +5,9 @@
   font-weight: normal;
   font-style: normal;
 }
-//Body Font
-@font-face {
-  font-family: "pidgin-body";
-  src: font-url('ElliotSans-Medium.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
 //Reem Kufi
-@font-face {
-  font-family: "reem-kufi";
+@font-face{
+  font-family: "pidgin-body";
   src: font-url('ReemKufi-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;

@@ -6,8 +6,8 @@
 		<!--Loader, Login, Signup Buttons-->
 		<div class="div header_section_btn">
 			<%= link_to 'Loader', '#', class: 'btn_header' %>
-			<%= link_to 'Login', '#', class: 'btn_header' %>
-			<%= link_to 'Signup', '#', class: 'btn_header' %>
+			<%= link_to 'Login', '#', class: 'btn_header', id: "btn_login" %>
+			<%= link_to 'Signup', '#', class: 'btn_header', id: "btn_signup" %>
 		</div>
 	</div>
 	
@@ -18,7 +18,7 @@
 		<div class="pidgin_signup_header">Why Drive When You Can Fly?</div><br>
 		<div class="pidgin_signup_subheader">Drone delivery ensures the fastest delivery, every time</div>
 		<div class="div pidgin_signup_field">
-  			<%= text_field_tag :restaurant_query, params[:restaurant_query], :placeholder => 'Join our mailing list to learn and participate in out first alpha test', class: "txt_enter_email"%>	
+  			<%= text_field_tag :restaurant_query, params[:restaurant_query], :placeholder => 'Join our mailing list to learn more...', class: "txt_enter_email"%>	
   		</div>
 	<% end %>	
 
@@ -27,8 +27,8 @@
 
 <div class="div section_why_pidgin">
 	<h1>Why Pidgin?</h1>
-	
 </div>
+
 <!--
 <div class="main_footer_bar">
 	<p>&copy; 2018 pidgin.com<p>

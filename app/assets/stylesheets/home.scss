@@ -47,42 +47,45 @@ html{
 .top_header_bar #a_home{
 	display: block;
 	font-size: 2.75rem;
-	margin: 1rem 0px 0.5rem 10rem;
+	margin: 1rem 0px 0.5rem 15%;
 	color: white;
 	font-family: "pidgin";
 	text-decoration: none;
-}
+	}
 //Header section for the "loader", "login", and "signup" buttons
 .top_header_bar .header_section_btn{
 	position: absolute;
-	margin-left: 60%;
-	min-width: 22rem;
+	margin: 1rem 0px 0.5rem 50%;
+	min-width: 32%;
+	max-width: 32%;
 	display: flex;
+
 }
 //Overall CSS for the three header buttons
 .header_section_btn .btn_header{
-	postion: relative;
-	margin: .75rem 0px 0.75px 15%;
-	min-height: 2rem;
-	min-width: 4rem;
+	padding: 2% 2% 2% 2%;
+	min-height: 2.5rem;
+	min-width: 30%;
 	border: 1px solid white;
 	background: transparent;
 	color: white;
-	font-size: 20px;
+	font-size: 0.85rem;
 	font-family: "pidgin-body";
 	text-decoration: none;
 	text-align: center;
 	padding-top: 13.5px;
+	line-height: 1rem;
 }
 //Hover on buttons
 .btn_header:hover{
 	border: 3px solid white;
 }
-.ttl_choose_restaurant{
-	color: white;
-	text-shadow: 2px 2px 2px black;
-	font-family: pidgin;
-	text-align: center;
+//Specific: Login Button
+#btn_login{
+	margin-left: 5%;
+}
+#btn_signup{
+	margin-left: 5%;
 }
 //Food image in main header
 .main_header_bar .img_header_food{
@@ -94,34 +97,40 @@ html{
 /* This div lives in the large orange header for the register section*/
 .form_register_pidgin{
 	position: absolute;
-	margin: 7.5rem 0rem 0rem 60%;
+	margin: 7.5rem 0rem 0rem 50%;
 	top: 0;
 	left: 0;
 	right: 0;
 	min-height: 5rem;
-	max-width: 22rem;
+	min-width: 30%;
+	max-width: 32%;
 	display: block;
+
 }
 // Slogan goes here ("Why drive...")
 .form_register_pidgin .pidgin_signup_header{
 	color: white;
 	font-family: "pidgin-body";
-	font-size: 2.75rem;
+	font-size: 2.65rem;
+	font-weight: bold;
 	text-align: right;
 }
 // Drone delivery ensures..
 .form_register_pidgin .pidgin_signup_subheader{
 	color: white;
-	font-family: "reem-kufi";
-	font-size: 1.65rem;
+	font-family: "pidgin-body";
+	font-size: 1.45rem;
 	text-align: right;
 }
 //Section for entering email (for email updates)
 .form_register_pidgin .pidgin_signup_field{
 	margin: 0.75rem auto;
 	display: block;	
-	font-size: 30px;
-	font-family: 'pidgin';
+	font-size: 1rem;
+	font-family: 'pidgin-body';
+	background-color: red;
+	text-align: left;
+	color: $theme_grey;
 }
 //Email bar for updates on Pidgin
 .txt_enter_email{
@@ -149,8 +158,8 @@ html{
 }
 
 .section_why_pidgin{
-	margin: 30rem 0rem 0rem 5rem;
-	font-size: 3rem;
+	margin: 50% 0rem 0rem 15%;
+	font-size: 10rem;
 
 }
 .main_footer_bar{
