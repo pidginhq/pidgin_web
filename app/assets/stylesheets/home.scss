@@ -46,16 +46,21 @@ html{
 //The #a_home reroutes back to the home/index page
 .top_header_bar #a_home{
 	display: block;
-	font-size: 2.75rem;
-	margin: 1rem 0px 0.5rem 15%;
+	margin: 1rem 0rem 0.5rem 15%;
 	color: white;
 	font-family: "pidgin";
 	text-decoration: none;
-	}
+}
+#a_home a{
+	color: white;
+	text-decoration: none;
+	font-size: 2.35rem;
+}
 //Header section for the "loader", "login", and "signup" buttons
 .top_header_bar .header_section_btn{
 	position: absolute;
 	margin: 1rem 0px 0.5rem 50%;
+	min-height: 3rem;
 	min-width: 32%;
 	max-width: 32%;
 	display: flex;
@@ -63,8 +68,9 @@ html{
 }
 //Overall CSS for the three header buttons
 .header_section_btn .btn_header{
-	padding: 2% 2% 2% 2%;
+	padding: 10% 2% 2% 2%;
 	min-height: 2.5rem;
+	max-height: 2.5rem;
 	min-width: 30%;
 	border: 1px solid white;
 	background: transparent;
