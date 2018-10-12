@@ -21,57 +21,64 @@ $theme_grey: #919191;
 html{
 	font-size: 20px;
 }
+body{
+	width: 100%;
+}
 //This is the grand orange box that serves as the entire header for the viewer
 .main_header_bar{
 	position: absolute;
 	top: 0;
 	right: 0;
 	left: 0;
+	width: 100%;
 	height: 25rem;
 	@include linear-gradient($pidgin_dark, $pidgin)
 		
 }
 //This bar is the top header par partitioned by the white bar.
 .top_header_bar{
-	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;	
-	min-height: 3rem;
+	height: 20%;
 	width: 100%;
 	display: flex;
-	background: transparent;
-	border-bottom: 1px solid white;
 }
 //The #a_home reroutes back to the home/index page
-.top_header_bar #a_home{
+.top_header_bar #link_home{
+	positon: absolute;
 	display: block;
-	margin: 1rem 0rem 0.5rem 15%;
+	margin: 2% 0% 1% 15%;
+	width: 10rem;
+	height: 2.5rem;
 	color: white;
 	font-family: "pidgin";
 	text-decoration: none;
+	background-color: red;
 }
-#a_home a{
-	color: white;
-	text-decoration: none;
-	font-size: 2.35rem;
+#link_home .logo_pidgin{
+	height: 100%;
+	width: 100%;
+	background-color: red;
 }
 //Header section for the "loader", "login", and "signup" buttons
 .top_header_bar .header_section_btn{
 	position: absolute;
-	margin: 1rem 0px 0.5rem 50%;
-	min-height: 3rem;
-	min-width: 32%;
-	max-width: 32%;
+	margin: 2% 0% 1% 50%;
+	height: 2.5rem;
+	width: 32%;
 	display: flex;
+	background-color: blue;
 
+}
+.header_divide{
+	border: 1px solid white;
+	margin: 1% 2.5% 0% 2.5%;
 }
 //Overall CSS for the three header buttons
 .header_section_btn .btn_header{
-	padding: 10% 2% 2% 2%;
-	min-height: 2.5rem;
-	max-height: 2.5rem;
-	min-width: 30%;
+	height: 2.5rem;
+	width: 20rem;
 	border: 1px solid white;
 	background: transparent;
 	color: white;
@@ -93,88 +100,22 @@ html{
 #btn_signup{
 	margin-left: 5%;
 }
-//Food image in main header
-.main_header_bar .img_header_food{
-	margin: 10rem 10rem 10rem 0rem;
-	height: 20rem;
-	width: 30rem;
-	background-image: image-url("images/img_pizza_box.png");
-}
-/* This div lives in the large orange header for the register section*/
-.form_register_pidgin{
-	position: absolute;
-	margin: 7.5rem 0rem 0rem 50%;
-	top: 0;
-	left: 0;
-	right: 0;
-	min-height: 5rem;
-	min-width: 30%;
-	max-width: 32%;
-	display: block;
 
+
+/** This is where the header subsection begins */
+#header_subsection{
+	height: 55%;
+	margin-top: 2.5%;
+	background-color: green;
 }
-// Slogan goes here ("Why drive...")
-.form_register_pidgin .pidgin_signup_header{
-	color: white;
-	font-family: "pidgin-body";
-	font-size: 2.65rem;
-	font-weight: bold;
-	text-align: right;
+/* These are the two grid areas */
+#header_subsection .col-sm-6{
+	height: 100%;
 }
-// Drone delivery ensures..
-.form_register_pidgin .pidgin_signup_subheader{
-	color: white;
-	font-family: "pidgin-body";
-	font-size: 1.45rem;
-	text-align: right;
-}
-//Section for entering email (for email updates)
-.form_register_pidgin .pidgin_signup_field{
-	margin: 0.75rem auto;
-	display: block;	
-	font-size: 1rem;
-	font-family: 'pidgin-body';
-	background-color: red;
-	text-align: left;
-	color: $theme_grey;
-}
-//Email bar for updates on Pidgin
-.txt_enter_email{
+#header_subsection .img_pizza_box{
 	margin: 0 auto;
 	display: block;
-	text-align: center;
-	border: 1px solid black;
-	border-radius: 2px;
-	box-shadow: 2px 2px 2px black;
-	height: 40px;
-	min-width: 100%;
-
-}
-//Email field
-.txt_enter_email:hover{
-	height: 2.5rem;
-	width: 500px;
-}
-.btn_search_restaurants{
-	border: none;
-	background-color: $pidgin;
-	box-shadow: 2px 2px 2px black;
-	color: white;
-	height: 40px;
-}
-
-.section_why_pidgin{
-	margin: 50% 0rem 0rem 15%;
-	font-size: 10rem;
-
-}
-.main_footer_bar{
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 80px;
-	background-color: $pidgin;
-	color: white;
+	height: 20rem;
+	width: 35rem;
 }
 

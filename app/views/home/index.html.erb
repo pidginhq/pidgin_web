@@ -2,32 +2,42 @@
 <div class="main_header_bar">
 	<div class="top_header_bar">
 		<!--pidgin logo-->
-		<div id="a_home"><a href="#">pidgin</a></div>
+		<a href="#" id="link_home">
+			<div class="div logo_pidgin">
+
+			</div>
+		</a>
 		<!--Loader, Login, Signup Buttons-->
 		<div class="div header_section_btn">
-			<%= link_to 'Loader', '#', class: 'btn_header' %>
+			<%= link_to 'Loader', '#', class: 'btn_header' , id: "btn_header" %>
 			<%= link_to 'Login', '#', class: 'btn_header', id: "btn_login" %>
 			<%= link_to 'Signup', '#', class: 'btn_header', id: "btn_signup" %>
 		</div>
 	</div>
 	
-	<%= image_tag "img_pizza_box.png", class: "img_header_food"%>
+	<!-- White header bar for the divider -->
+	<hr class="hr header_divide">
+
+	<!-- This section is responsive layount for the image and register section-->
+	<div class="row" id="header_subsection">
+		<!-- Section A: Pizza Box Image -->
+		<div class="col-sm-6" style="background-color: red;">
+			<%= image_tag("img_pizza_box.png", class: "img img_pizza_box") %>
+		</div>
+
+		<!--Section B: Form registering region -->
+		<div class="col-sm-6" style="background-color: blue;">
+			
+		</div>
+	</div>
+
+
+
+
+
+</div>
 	
-	<!--Customer Order/Client Signup Option-->
-	<%= form_tag(restaurants_path, method: :get, class: 'form_register_pidgin') do %>
-		<div class="pidgin_signup_header">Why Drive When You Can Fly?</div><br>
-		<div class="pidgin_signup_subheader">Drone delivery ensures the fastest delivery, every time</div>
-		<div class="div pidgin_signup_field">
-  			<%= text_field_tag :restaurant_query, params[:restaurant_query], :placeholder => 'Join our mailing list to learn more...', class: "txt_enter_email"%>	
-  		</div>
-	<% end %>	
 
-		
-</div>
-
-<div class="div section_why_pidgin">
-	<h1>Why Pidgin?</h1>
-</div>
 
 <!--
 <div class="main_footer_bar">
