@@ -31,7 +31,8 @@ body{
 	right: 0;
 	left: 0;
 	width: 100%;
-	height: 25rem;
+	min-height: 25rem;
+	max-height: 32rem;
 	@include linear-gradient($pidgin_dark, $pidgin)
 		
 }
@@ -64,11 +65,10 @@ body{
 //Header section for the "loader", "login", and "signup" buttons
 .top_header_bar .header_section_btn{
 	position: absolute;
-	margin: 2% 0% 1% 50%;
+	margin: 2% 0% 1% 50.5%;
 	height: 2.5rem;
-	width: 32%;
+	width: 32.5%;
 	display: flex;
-	background-color: blue;
 
 }
 .header_divide{
@@ -104,18 +104,40 @@ body{
 
 /** This is where the header subsection begins */
 #header_subsection{
-	height: 55%;
-	margin-top: 2.5%;
-	background-color: green;
+	height: 65%;
+	margin-top: 5%;
 }
 /* These are the two grid areas */
 #header_subsection .col-sm-6{
 	height: 100%;
 }
 #header_subsection .img_pizza_box{
-	margin: 0 auto;
+	margin: 10% auto;
 	display: block;
 	height: 20rem;
-	width: 35rem;
+	width: 30rem;
 }
-
+/** Form for registering email for updates */
+#header_subsection #form_pidgin_register{
+	color: white;
+	height: 100%;
+	width: 65%;	
+	font-family: "pidgin-body";
+}
+#form_pidgin_register .pidgin_register_header{
+	margin-left: 15%;
+	text-align: right;
+	font-size: 3.25rem;
+	height: 35%;
+}
+#form_pidgin_register .pidgin_register_subheader{
+	margin-top: 5%;
+	margin-left: 20%;
+	text-align: right;
+	font-size: 30px;
+	height: 35%;
+}
+#form_pidgin_register .pidgin_register_email{
+	margin-top: 2.5%;
+	width: 100%;
+}
