@@ -32,9 +32,8 @@ body{
 	left: 0;
 	width: 100%;
 	min-height: 25rem;
-	max-height: 32rem;
-	@include linear-gradient($pidgin_dark, $pidgin)
-		
+	max-height: 34rem;
+	@include linear-gradient($pidgin_dark, $pidgin);
 }
 //This bar is the top header par partitioned by the white bar.
 .top_header_bar{
@@ -140,4 +139,68 @@ body{
 #form_pidgin_register .pidgin_register_email{
 	margin-top: 2.5%;
 	width: 100%;
+}
+
+/** Moving on past the header bar, this section is "why pidgin?"*/
+.why_pidgin{
+	margin: 40rem 0 0 15%;
+}
+//h1 tag for "why pidgin"
+.why_pidgin .header{
+	font-family: "pidgin-body";
+	font-weight: bold;
+	font-size: 3rem;
+}
+//p tag for pidgin's explanation
+.exp_why_pidgin{
+	text-align: just;
+	max-width: 30%;
+}
+
+
+/** This section is for "How it Works" bar/div */
+//Overall how it works div
+.order_process{
+	margin: 5% 0% 0% 0%;
+	height: 25rem;
+	width: 100%;
+	background-color: #D3D3D3;
+}
+//"How it works" h4
+.order_process .header{
+	margin: 2% 0% 0% 15%;
+	font-family: "pidgin-body";
+}
+.order_process .subheader{
+	margin: 2% 0% 0% 15%;
+	font-family: "pidgin-body";
+}
+//This is for the three hover-buttons
+.order_process #process_section{
+	margin: 2% auto;
+	min-height: 10rem;
+	max-height: 15rem;
+	max-width: 50%;
+	background-color: red;
+}
+//Process section buttons
+#process_section .process_step{
+	background-color: green;
+	height: 100%;
+	width: 100%;
+	border-radius: 25%;	
+	text-align: center;
+	font-family: "pidgin-body";
+	vertical-align: middle;
+	font-size: 2rem;
+}
+#process_section .process_step:hover{
+	background-color: red;
+}
+
+/** Footer Bar */
+.main_footer_bar{
+	height: 10rem;
+	width: 100%;
+	background-color: black;
 }

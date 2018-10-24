@@ -1,0 +1,65 @@
+// Mobile
+@media (max-width: 767.5px) {
+	.main_header_bar{
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+	}
+	.top_header_bar #link_home{
+		margin: 5% 0% 5% 2%;
+		width: 40%;
+	}
+	#link_home .logo_pidgin{
+		background-color: yellow;
+	}
+	//Header section for the "loader", "login", and "signup" buttons
+	.top_header_bar .header_section_btn{
+		margin: 5% 2% 5% 43%;
+		width: 55%;
+		background-color: blue;
+	}
+	.header_section_btn .btn_header{
+	 	width: 70%;
+	}
+	/** This is where the header subsection begins */
+	#header_subsection{
+		margin: 0 auto;
+		height: 30%;
+		width: 95%;
+	}
+	#header_subsection .col-sm-6{
+		height: 50%;		
+	}
+	#header_subsection #img{
+		margin: 0 auto;
+		display: block;
+		background-color: blue;
+	}
+	#header_subsection .img_pizza_box{
+		position: fixed;
+		margin: 5% 0% 0% -35%;
+		display: block;
+		opacity: 0.4;
+		order: 2;
+	}
+	// Form to register for updates
+	#header_subsection #form_pidgin_register{
+		margin: 10% auto;
+		width: 100%;
+	}
+	//Why drive when you can fly?
+	#form_pidgin_register .pidgin_register_header{
+		margin: 20% auto;
+		width: 100%;
+		font-size: 1.75rem;
+		text-align: center;
+	}
+	//Why drive when you can fly?
+	#form_pidgin_register .pidgin_register_subheader{
+		margin: 5% auto;
+		width: 100%;
+		font-size: 1.15rem;
+		text-align: center;
+	}
+}
