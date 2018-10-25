@@ -143,7 +143,7 @@ body{
 
 /** Moving on past the header bar, this section is "why pidgin?"*/
 .why_pidgin{
-	margin: 40rem 0 0 15%;
+	margin: 40rem 0% 0% 15%;
 }
 //h1 tag for "why pidgin"
 .why_pidgin .header{
@@ -177,15 +177,12 @@ body{
 }
 //This is for the three hover-buttons
 .order_process #process_section{
-	margin: 2% auto;
-	min-height: 10rem;
-	max-height: 15rem;
-	max-width: 50%;
-	background-color: red;
+	margin: 6% auto;
+	max-height: 10rem;
+	width: 47%;
 }
 //Process section buttons
 #process_section .process_step{
-	background-color: green;
 	height: 100%;
 	width: 100%;
 	border-radius: 25%;	
@@ -193,14 +190,64 @@ body{
 	font-family: "pidgin-body";
 	vertical-align: middle;
 	font-size: 2rem;
+	overflow: hidden;
 }
-#process_section .process_step:hover{
-	background-color: red;
+.process_step .step_name{
+	margin: 3.5rem auto;
+	height: 100%;
+	color: black;
+}
+//Order Step
+#step_order{
+	background-image: image-url("Order.png");
+	background-size: cover;
+}
+//Receive Step
+#step_receive{
+	background-image: image-url("Receive.jpg");
+	background-size: cover;
+}
+//Enjoy Step
+#step_enjoy{
+	background-image: image-url("Enjoy.jpg");
+	background-size: cover;
 }
 
-/** Footer Bar */
+/** This section is the footer bar*/
+//Main footer bar
 .main_footer_bar{
-	height: 10rem;
+	height: 20rem;
 	width: 100%;
 	background-color: black;
+	overflow: hidden;
+}
+//Join the revolution...
+.main_footer_bar .txt_join_pidgin{
+	margin: 2% 5% 0% 15%;
+	color: white;
+}
+//White divisor line
+.main_footer_bar .footer_divide{
+	border: 1px solid white;
+	margin: 1% 2.5% 0% 15%;
+}
+
+//Table for pidgin's information
+#tbl_information{
+	text-decoration: none;
+	border: none;
+	margin-top : 2%;
+	margin-left: 15%;
+	width: 80%;
+}
+.borderless th{
+	border: none;
+}
+//Pidgin Logo
+#tbl_information .imgLogoPidgin{
+	height: 45px;
+}
+#tbl_information .ttlColumn{
+	color: white;
+	vertical-align: top;
 }

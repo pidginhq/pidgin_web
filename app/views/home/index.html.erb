@@ -60,18 +60,19 @@
 	<!--This div section is for the three main butons-->
 	<div class="row" id="process_section">
 		<div class="col-sm-4">
-			<div class="process_step">
-				Order
+			<div class="process_step" id="step_order">
+				<div class="step_name">Order</div>
+
 			</div>
 		</div>
 		<div class="col-sm-4">
-			<div class="process_step">
-				Receive
+			<div class="process_step" id="step_receive">
+				<div class="step_name">Receive</div>
 			</div>
 		</div>
 		<div class="col-sm-4">
-			<div class="process_step">
-				Enjoy
+			<div class="process_step" id="step_enjoy">
+				<div class="step_name">Enjoy</div>
 			</div>
 		</div>
 	</div>
@@ -81,6 +82,51 @@
 
 <!--Footer bar -->
 <div class="main_footer_bar">
-	<p>&copy; 2018 pidgin.com<p>
+	<!--Initial text in the footer bar above the white hr line-->
+	<p class="txt_join_pidgin">Pidgin is the first drone-food delivery service operating out of the United States. <em>Join the revolution.</em></p>
+	<!--White divider line above main footer content-->
+	<hr class="hr footer_divide">
+	<!--Table to organize foote information-->
+	<div class="table-responsive">
+  		<table class="table table-borderless" id="tbl_information">
+    		<thead>
+    			<tr>
+    				<th><%= image_tag("pidginLogo.png", class: "img imgLogoPidgin") %></th>
+    				<th class="ttlColumn">Join</th>
+    				<th class="ttlColumn">Ask Us</th>
+    				<th class="ttlColumn">Follow Us</th>
+    				<th class="ttlColumn">Cities</th>
+    			</tr>
+    		</thead>
+    		<tbody>
+    			<tr class="row_body">
+    				<th></th>
+    				<th> Signup </th>
+    				<th> FAQ </th>
+    				<th> Twitter</th>
+    				<th> Raleigh</th>
+    			</tr>
+    			<tr>
+    				<th></th>
+    				<th>Become a Loader</th>
+    				<th>Contact Us</th>
+    				<th>Instagram</th>
+    			</tr>
+    			<tr>
+    				<th></th>
+    				<th>Partner with Us</th>
+    				<th></th>
+    				<th>Youtube</th>
+    				<th></th>
+    			</tr>
+    			<tr>
+    				<th></th>
+    				<th></th>
+    				<th></th>
+    				<th>Facebook</th>
+    			</tr>
+    		</tbody>
+  		</table>
+	</div>
 </div>
 
