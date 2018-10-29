@@ -7,18 +7,14 @@
 		left: 0;
 	}
 	.top_header_bar #link_home{
-		margin: 5% 0% 5% 2%;
+		margin: 8% 0% 5% 7%;
 		height: 10%;
-		width: 30%;
-	}
-	#link_home .logo_pidgin{
-		
+		width: 27.5%;
 	}
 	//Header section for the "loader", "login", and "signup" buttons
 	.top_header_bar .header_section_btn{
 		margin: 5% 2% 5% 43%;
 		width: 55%;
-		background-color: blue;
 	}
 	.header_section_btn .btn_header{
 	 	width: 70%;
@@ -41,7 +37,7 @@
 		position: fixed;
 		margin: 5% 0% 0% -35%;
 		display: block;
-		opacity: 0.4;
+		opacity: 0.2;		
 		order: 2;
 	}
 	// Form to register for updates
@@ -51,7 +47,7 @@
 	}
 	//Why drive when you can fly?
 	#form_pidgin_register .pidgin_register_header{
-		margin: 20% auto;
+		margin: 20% auto;∂
 		width: 100%;
 		font-size: 1.75rem;
 		text-align: center;
@@ -62,5 +58,34 @@
 		width: 100%;
 		font-size: 1.15rem;
 		text-align: center;
+	}
+	//Explanation section
+	.why_pidgin{
+		margin: 30rem auto;
+		display: block;
+		width: 90%;
+	}
+	.why_pidgin .header{
+		text-align: center;
+	}
+	.why_pidgin .exp_why_pidgin{
+		min-width: 100%;
+		text-align: center;
+		font-family: "pidgin-txt";
+	}
+	.order_process{
+		margin-top: -95%;
+		height: 40rem;
+		display: block;
+	}
+	.order_process #process_section{
+		width: 65%;
+	}
+	.order_process .subheader{
+		font-family: "pidgin-txt";
+	}
+	.main_footer_bar .txt_join_pidgin{
+		text-align: center;
+		font-family: "pidgin-txt";
 	}
 }
