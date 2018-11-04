@@ -146,16 +146,26 @@ body{
 }
 //h1 tag for "why pidgin"
 .why_pidgin .header{
+	display: inline-block;
 	font-family: "pidgin-body";
 	font-weight: bold;
 	font-size: 3rem;
 }
 //p tag for pidgin's explanation
 .exp_why_pidgin{
+	display: inline-block;
+	font-family: "pidgin-txt";
 	text-align: just;
-	max-width: 30%;
+	max-width: 40%;
+	height: 50rem;
+	line-height: 1.4rem;
+	background-color: red;
 }
-
+.img_drone{
+	display: inline-block;
+	margin-left: 30%;
+	height: 200px;
+}
 
 /** This section is for "How it Works" bar/div */
 //Overall how it works div

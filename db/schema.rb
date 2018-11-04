@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180916183946) do
+ActiveRecord::Schema.define(version: 20181103222816) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -53,6 +53,12 @@ ActiveRecord::Schema.define(version: 20180916183946) do
     t.string "price"
     t.string "profile_image_url"
     t.integer "menu_id"
+  end
+
+  create_table "waitlists", force: :cascade do |t|
+    t.text "email"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end

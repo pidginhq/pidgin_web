@@ -1,0 +1,2 @@
+#Ignore app configuration
+/config/database.yml
