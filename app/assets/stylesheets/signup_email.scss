@@ -1,0 +1,20 @@
+$pidgin: #F2985A;
+.waitlist_thanks{
+	margin-top: 10%;
+	text-align: center;
+	font-family: "pidgin-txt";
+	color: $pidgin;
+	text-shadow: 1px 1px 1px grey;
+}
+#waitlist_return_home{
+	font-size: 2rem;
+	margin-top: 10%;
+	color: $pidgin;
+	font-family: "pidgin-txt";
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+#waitlist_return_home:hover{
+	background: none;
+}

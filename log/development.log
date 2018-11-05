@@ -6537,3 +6537,1328 @@ Content-Transfer-Encoding: 7bit
 Completed 200 OK in 1192ms (Views: 83.3ms | ActiveRecord: 29.1ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-11-04 17:32:33 -0500
+  [1m[35m (7.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (542.6ms)
+Completed 200 OK in 769ms (Views: 727.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 17:32:42 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (5.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (27.8ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-04 22:32:42.486745"], ["updated_at", "2018-11-04 22:32:42.486745"]]
+  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  Rendering pidgin_mailer/signup_email.html.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.html.erb within layouts/mailer (1.2ms)
+PidginMailer#signup_email: processed outbound mail in 435.1ms
+Sent mail to scmaina@ncsu.edu (37.4ms)
+Date: Sun, 04 Nov 2018 17:32:43 -0500
+From: pidgin.hq@gmail.com
+To: scmaina@ncsu.edu
+Message-ID: <5bdf738b5ac24_79923fc72d6e7cb8982b4@Admins-MacBook-Air.local.mail>
+Subject: Pidgin: Welcome to the reveolution!
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to Pidgin!</h1>
+    <p>
+      You have successfully joined our waitlist for delivery information,
+      we're working hard to expand across the U.S, and we hope to get to you
+      as fast as we can.
+    </p>
+    <p>
+      To return to the site, just follow this link: https://fierce-mountain-86889.herokuapp.com/.
+    </p>
+    <p>Thanks for choosing to #jointherevolution.</p>
+  </body>
+</html>
+
+  </body>
+</html>
+
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1061ms (Views: 86.2ms | ActiveRecord: 59.7ms)
+
+
+  [1m[35m (5.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6058799851119998640)[0m
+  [1m[35m (6.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (18.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6058799851119998640)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2018-11-04 18:23:20 -0500
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (581.4ms)
+Completed 200 OK in 807ms (Views: 771.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waitlist/new/?email=seanmainastreak%40gmail.com" for 127.0.0.1 at 2018-11-04 18:23:28 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"seanmainastreak@gmail.com"}
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (10.2ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "seanmainastreak@gmail.com"], ["created_at", "2018-11-04 23:23:29.044998"], ["updated_at", "2018-11-04 23:23:29.044998"]]
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+Completed 500 Internal Server Error in 452ms (ActiveRecord: 45.0ms)
+
+
+  
+NoMethodError (undefined method `signup_email' for PidginMailer:Class):
+  
+app/controllers/waitlists_controller.rb:9:in `new'
+Started GET "/" for 127.0.0.1 at 2018-11-04 18:24:59 -0500
+  [1m[35m (7.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (549.7ms)
+Completed 200 OK in 871ms (Views: 829.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 18:25:11 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-04 23:25:11.980065"], ["updated_at", "2018-11-04 23:25:11.980065"]]
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+PidginMailer#signup_email: processed outbound mail in 3.0ms
+Completed 500 Internal Server Error in 413ms (ActiveRecord: 23.2ms)
+
+
+  
+NoMethodError (undefined method `email' for nil:NilClass):
+  
+app/mailers/pidgin_mailer.rb:4:in `signup_email'
+app/controllers/waitlists_controller.rb:9:in `new'
+Started GET "/" for 127.0.0.1 at 2018-11-04 18:26:19 -0500
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (528.8ms)
+Completed 200 OK in 781ms (Views: 752.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 18:26:26 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (4.9ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-04 23:26:26.647525"], ["updated_at", "2018-11-04 23:26:26.647525"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  Rendering pidgin_mailer/signup_email.html.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.html.erb within layouts/mailer (9.5ms)
+PidginMailer#signup_email: processed outbound mail in 57.1ms
+Completed 500 Internal Server Error in 446ms (ActiveRecord: 26.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    2:   <p>
+    3:     You have made the awesome choice to #jointherevolution
+    4:     with pidgindelivery.com, your username is: 
+    5:     <%= @user.email %>.<br>
+    6:   </p>
+    7: <p>We can't wait to start delivering to you soon</p>
+  
+app/views/pidgin_mailer/signup_email.html.erb:5:in `_app_views_pidgin_mailer_signup_email_html_erb___3704417304439432971_70211087036740'
+app/mailers/pidgin_mailer.rb:4:in `signup_email'
+app/controllers/waitlists_controller.rb:9:in `new'
+Started GET "/" for 127.0.0.1 at 2018-11-04 18:27:11 -0500
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (503.6ms)
+Completed 200 OK in 755ms (Views: 725.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waitlist/new/?email=seanmainastreak%40gmail.com" for 127.0.0.1 at 2018-11-04 18:27:20 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"seanmainastreak@gmail.com"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (7.2ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "seanmainastreak@gmail.com"], ["created_at", "2018-11-04 23:27:21.066493"], ["updated_at", "2018-11-04 23:27:21.066493"]]
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  Rendering pidgin_mailer/signup_email.html.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.html.erb within layouts/mailer (3.0ms)
+  Rendering pidgin_mailer/signup_email.text.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.text.erb within layouts/mailer (0.6ms)
+PidginMailer#signup_email: processed outbound mail in 681.1ms
+Sent mail to seanmainastreak@gmail.com (277.1ms)
+Date: Sun, 04 Nov 2018 18:27:22 -0500
+From: pidgin.hq@gmail.com
+To: seanmainastreak@gmail.com
+Message-ID: <5bdf805a241f3_7ed13fd9e6405ad8596fb@Admins-MacBook-Air.local.mail>
+Subject: Welcome to Pidgin!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bdf805a21601_7ed13fd9e6405ad8595a5";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bdf805a21601_7ed13fd9e6405ad8595a5
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to pidgindelivery.com!
+===============================================
+You have made the awesome choice to #jointherevolution
+with pidgindelivery.com, your username is: @user.email
+We can't wait to start delivering to you soon!
+
+----==_mimepart_5bdf805a21601_7ed13fd9e6405ad8595a5
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to pidgindelivery.com! %></h1>
+  <p>
+    You have made the awesome choice to #jointherevolution
+    with pidgindelivery.com, your username is: 
+    seanmainastreak@gmail.com.<br>
+  </p>
+<p>We can't wait to start delivering to you soon</p>
+  </body>
+</html>
+
+----==_mimepart_5bdf805a21601_7ed13fd9e6405ad8595a5--
+
+Completed 500 Internal Server Error in 1441ms (ActiveRecord: 36.8ms)
+
+
+  
+Net::SMTPAuthenticationError (534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbsa
+):
+  
+app/controllers/waitlists_controller.rb:9:in `new'
+Started GET "/" for 127.0.0.1 at 2018-11-04 18:28:05 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 120ms (Views: 115.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waitlist/new/?email=seanmainastreak%40gmail.com" for 127.0.0.1 at 2018-11-04 18:28:24 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"seanmainastreak@gmail.com"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "seanmainastreak@gmail.com"], ["created_at", "2018-11-04 23:28:24.794272"], ["updated_at", "2018-11-04 23:28:24.794272"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  Rendering pidgin_mailer/signup_email.html.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.html.erb within layouts/mailer (0.6ms)
+  Rendering pidgin_mailer/signup_email.text.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.text.erb within layouts/mailer (0.5ms)
+PidginMailer#signup_email: processed outbound mail in 62.8ms
+Sent mail to seanmainastreak@gmail.com (937.2ms)
+Date: Sun, 04 Nov 2018 18:28:24 -0500
+From: pidgin.hq@gmail.com
+To: seanmainastreak@gmail.com
+Message-ID: <5bdf8098d3377_7ed13fd9e640595c59866@Admins-MacBook-Air.local.mail>
+Subject: Welcome to Pidgin!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bdf8098d19b0_7ed13fd9e640595c597c4";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bdf8098d19b0_7ed13fd9e640595c597c4
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to pidgindelivery.com!
+===============================================
+You have made the awesome choice to #jointherevolution
+with pidgindelivery.com, your username is: @user.email
+We can't wait to start delivering to you soon!
+
+----==_mimepart_5bdf8098d19b0_7ed13fd9e640595c597c4
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to pidgindelivery.com! %></h1>
+  <p>
+    You have made the awesome choice to #jointherevolution
+    with pidgindelivery.com, your username is: 
+    seanmainastreak@gmail.com.<br>
+  </p>
+<p>We can't wait to start delivering to you soon</p>
+  </body>
+</html>
+
+----==_mimepart_5bdf8098d19b0_7ed13fd9e640595c597c4--
+
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1133ms (Views: 116.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-04 18:30:01 -0500
+  [1m[35m (6.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (624.3ms)
+Completed 200 OK in 903ms (Views: 866.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waitlist/new/?email=eiley.estlin%40gmail.com" for 127.0.0.1 at 2018-11-04 18:30:35 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"eiley.estlin@gmail.com"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "eiley.estlin@gmail.com"], ["created_at", "2018-11-04 23:30:35.333516"], ["updated_at", "2018-11-04 23:30:35.333516"]]
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  Rendering pidgin_mailer/signup_email.html.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.html.erb within layouts/mailer (0.9ms)
+  Rendering pidgin_mailer/signup_email.text.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.text.erb within layouts/mailer (1.2ms)
+PidginMailer#signup_email: processed outbound mail in 462.3ms
+Sent mail to eiley.estlin@gmail.com (953.5ms)
+Date: Sun, 04 Nov 2018 18:30:36 -0500
+From: pidgin.hq@gmail.com
+To: eiley.estlin@gmail.com
+Message-ID: <5bdf811c3e7c0_7ef33fec16f5bb7079773@Admins-MacBook-Air.local.mail>
+Subject: Welcome to Pidgin!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bdf811c3b353_7ef33fec16f5bb70796e6";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bdf811c3b353_7ef33fec16f5bb70796e6
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to pidgindelivery.com!
+===============================================
+You have made the awesome choice to #jointherevolution
+with pidgindelivery.com, your username is: @user.email
+We can't wait to start delivering to you soon!
+
+----==_mimepart_5bdf811c3b353_7ef33fec16f5bb70796e6
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to pidgindelivery.com! %></h1>
+  <p>
+    You have made the awesome choice to #jointherevolution
+    with pidgindelivery.com, your username is: 
+    eiley.estlin@gmail.com.<br>
+  </p>
+<p>We can't wait to start delivering to you soon</p>
+  </body>
+</html>
+
+----==_mimepart_5bdf811c3b353_7ef33fec16f5bb70796e6--
+
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2054ms (Views: 90.2ms | ActiveRecord: 25.8ms)
+
+
+Started GET "/waitlist/new/?email=wtbare%40live.com" for 127.0.0.1 at 2018-11-04 18:31:43 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"wtbare@live.com"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "wtbare@live.com"], ["created_at", "2018-11-04 23:31:43.068868"], ["updated_at", "2018-11-04 23:31:43.068868"]]
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  Rendering pidgin_mailer/signup_email.html.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.html.erb within layouts/mailer (0.7ms)
+  Rendering pidgin_mailer/signup_email.text.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.text.erb within layouts/mailer (0.5ms)
+PidginMailer#signup_email: processed outbound mail in 47.9ms
+Sent mail to wtbare@live.com (830.5ms)
+Date: Sun, 04 Nov 2018 18:31:43 -0500
+From: pidgin.hq@gmail.com
+To: wtbare@live.com
+Message-ID: <5bdf815f1fcf8_7ef33fec16f5bae479954@Admins-MacBook-Air.local.mail>
+Subject: Welcome to Pidgin!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bdf815f1ed82_7ef33fec16f5bae479870";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bdf815f1ed82_7ef33fec16f5bae479870
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to pidgindelivery.com!
+===============================================
+You have made the awesome choice to #jointherevolution
+with pidgindelivery.com, your username is: @user.email
+We can't wait to start delivering to you soon!
+
+----==_mimepart_5bdf815f1ed82_7ef33fec16f5bae479870
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to pidgindelivery.com! %></h1>
+  <p>
+    You have made the awesome choice to #jointherevolution
+    with pidgindelivery.com, your username is: 
+    wtbare@live.com.<br>
+  </p>
+<p>We can't wait to start delivering to you soon</p>
+  </body>
+</html>
+
+----==_mimepart_5bdf815f1ed82_7ef33fec16f5bae479870--
+
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1016ms (Views: 115.0ms | ActiveRecord: 8.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-04 20:39:22 -0500
+  [1m[35m (17.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (870.3ms)
+Completed 200 OK in 1190ms (Views: 1131.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waitlist/new/?email=seanmainastreak%40gmail.com" for 127.0.0.1 at 2018-11-04 20:39:36 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"seanmainastreak@gmail.com"}
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (71.1ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "seanmainastreak@gmail.com"], ["created_at", "2018-11-05 01:39:36.643362"], ["updated_at", "2018-11-05 01:39:36.643362"]]
+  [1m[35m (4.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  Rendering pidgin_mailer/signup_email.html.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.html.erb within layouts/mailer (1.9ms)
+  Rendering pidgin_mailer/signup_email.text.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.text.erb within layouts/mailer (0.7ms)
+PidginMailer#signup_email: processed outbound mail in 738.6ms
+Sent mail to seanmainastreak@gmail.com (412.3ms)
+Date: Sun, 04 Nov 2018 20:39:37 -0500
+From: pidgin.hq@gmail.com
+To: seanmainastreak@gmail.com
+Message-ID: <5bdf9f59debd3_83183fef3179dd0c383aa@Admins-MacBook-Air.local.mail>
+Subject: Welcome to Pidgin!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bdf9f59dbc85_83183fef3179dd0c38229";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bdf9f59dbc85_83183fef3179dd0c38229
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to pidgindelivery.com!
+===============================================
+You have made the awesome choice to #jointherevolution
+with pidgindelivery.com, your username is: @user.email
+We can't wait to start delivering to you soon!
+
+----==_mimepart_5bdf9f59dbc85_83183fef3179dd0c38229
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to pidgindelivery.com! %></h1>
+  <p>
+    You have made the awesome choice to #jointherevolution
+    with pidgindelivery.com, your username is: 
+    seanmainastreak@gmail.com.<br>
+  </p>
+<p>We can't wait to start delivering to you soon</p>
+  </body>
+</html>
+
+----==_mimepart_5bdf9f59dbc85_83183fef3179dd0c38229--
+
+Completed 500 Internal Server Error in 2088ms (ActiveRecord: 293.9ms)
+
+
+  
+Net::SMTPAuthenticationError (535-5.7.8 Username and Password not accepted. Learn more at
+):
+  
+app/controllers/waitlists_controller.rb:9:in `new'
+Started GET "/waitlist/new/?email=seanmainastreak%40gmail.com" for 127.0.0.1 at 2018-11-04 20:40:11 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"seanmainastreak@gmail.com"}
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (4.4ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "seanmainastreak@gmail.com"], ["created_at", "2018-11-05 01:40:11.929724"], ["updated_at", "2018-11-05 01:40:11.929724"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  Rendering pidgin_mailer/signup_email.html.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.html.erb within layouts/mailer (3.8ms)
+  Rendering pidgin_mailer/signup_email.text.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.text.erb within layouts/mailer (0.9ms)
+PidginMailer#signup_email: processed outbound mail in 98.6ms
+Sent mail to seanmainastreak@gmail.com (256.9ms)
+Date: Sun, 04 Nov 2018 20:40:12 -0500
+From: pidgin.hq@gmail.com
+To: seanmainastreak@gmail.com
+Message-ID: <5bdf9f7c128ae_83183fef3179dc30385ae@Admins-MacBook-Air.local.mail>
+Subject: Welcome to Pidgin!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bdf9f7c9e6e_83183fef3179dc30384d7";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bdf9f7c9e6e_83183fef3179dc30384d7
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to pidgindelivery.com!
+===============================================
+You have made the awesome choice to #jointherevolution
+with pidgindelivery.com, your username is: @user.email
+We can't wait to start delivering to you soon!
+
+----==_mimepart_5bdf9f7c9e6e_83183fef3179dc30384d7
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to pidgindelivery.com! %></h1>
+  <p>
+    You have made the awesome choice to #jointherevolution
+    with pidgindelivery.com, your username is: 
+    seanmainastreak@gmail.com.<br>
+  </p>
+<p>We can't wait to start delivering to you soon</p>
+  </body>
+</html>
+
+----==_mimepart_5bdf9f7c9e6e_83183fef3179dc30384d7--
+
+Completed 500 Internal Server Error in 446ms (ActiveRecord: 6.5ms)
+
+
+  
+Net::SMTPAuthenticationError (535-5.7.8 Username and Password not accepted. Learn more at
+):
+  
+app/controllers/waitlists_controller.rb:9:in `new'
+Started GET "/waitlist/new/?email=seanmainastreak%40gmail.com" for 127.0.0.1 at 2018-11-04 20:41:24 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"seanmainastreak@gmail.com"}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.6ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "seanmainastreak@gmail.com"], ["created_at", "2018-11-05 01:41:24.794873"], ["updated_at", "2018-11-05 01:41:24.794873"]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  Rendering pidgin_mailer/signup_email.html.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.html.erb within layouts/mailer (3.6ms)
+  Rendering pidgin_mailer/signup_email.text.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.text.erb within layouts/mailer (0.6ms)
+PidginMailer#signup_email: processed outbound mail in 71.6ms
+Sent mail to seanmainastreak@gmail.com (277.7ms)
+Date: Sun, 04 Nov 2018 20:41:24 -0500
+From: pidgin.hq@gmail.com
+To: seanmainastreak@gmail.com
+Message-ID: <5bdf9fc4db059_83183fef30a7e00438749@Admins-MacBook-Air.local.mail>
+Subject: Welcome to Pidgin!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bdf9fc4d797f_83183fef30a7e004386d5";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bdf9fc4d797f_83183fef30a7e004386d5
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to pidgindelivery.com!
+===============================================
+You have made the awesome choice to #jointherevolution
+with pidgindelivery.com, your username is: @user.email
+We can't wait to start delivering to you soon!
+
+----==_mimepart_5bdf9fc4d797f_83183fef30a7e004386d5
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to pidgindelivery.com! %></h1>
+  <p>
+    You have made the awesome choice to #jointherevolution
+    with pidgindelivery.com, your username is: 
+    seanmainastreak@gmail.com.<br>
+  </p>
+<p>We can't wait to start delivering to you soon</p>
+  </body>
+</html>
+
+----==_mimepart_5bdf9fc4d797f_83183fef30a7e004386d5--
+
+Completed 500 Internal Server Error in 410ms (ActiveRecord: 5.5ms)
+
+
+  
+Net::SMTPAuthenticationError (535-5.7.8 Username and Password not accepted. Learn more at
+):
+  
+app/controllers/waitlists_controller.rb:9:in `new'
+Started GET "/" for 127.0.0.1 at 2018-11-04 20:51:27 -0500
+  [1m[35m (6.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (519.0ms)
+Completed 200 OK in 743ms (Views: 710.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 20:51:35 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 01:51:35.500049"], ["updated_at", "2018-11-05 01:51:35.500049"]]
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  Rendering pidgin_mailer/signup_email.html.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.html.erb within layouts/mailer (1.1ms)
+  Rendering pidgin_mailer/signup_email.text.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.text.erb within layouts/mailer (0.5ms)
+PidginMailer#signup_email: processed outbound mail in 587.7ms
+Sent mail to scmaina@ncsu.edu (1148.4ms)
+Date: Sun, 04 Nov 2018 20:51:36 -0500
+From: pidgin.hq@gmail.com
+To: scmaina@ncsu.edu
+Message-ID: <5bdfa22861286_84063fced9b932a464168@Admins-MacBook-Air.local.mail>
+Subject: Welcome to Pidgin!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bdfa2285e58f_84063fced9b932a4640e3";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bdfa2285e58f_84063fced9b932a4640e3
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to pidgindelivery.com!
+===============================================
+You have made the awesome choice to #jointherevolution
+with pidgindelivery.com, your username is: @user.email
+We can't wait to start delivering to you soon!
+
+----==_mimepart_5bdfa2285e58f_84063fced9b932a4640e3
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to pidgindelivery.com! %></h1>
+  <p>
+    You have made the awesome choice to #jointherevolution
+    with pidgindelivery.com, your username is: 
+    scmaina@ncsu.edu.<br>
+  </p>
+<p>We can't wait to start delivering to you soon</p>
+  </body>
+</html>
+
+----==_mimepart_5bdfa2285e58f_84063fced9b932a4640e3--
+
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2180ms (Views: 83.0ms | ActiveRecord: 30.8ms)
+
+
+  [1m[36mWaitlist Load (17.4ms)[0m  [1m[34mSELECT  "waitlists".* FROM "waitlists" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mWaitlist Load (0.7ms)[0m  [1m[34mSELECT  "waitlists".* FROM "waitlists" WHERE "waitlists"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  [1m[35mSQL (36.2ms)[0m  [1m[31mDELETE FROM "waitlists" WHERE "waitlists"."id" = $1[0m  [["id", 26]]
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "waitlists"[0m
+  [1m[36mWaitlist Load (0.7ms)[0m  [1m[34mSELECT  "waitlists".* FROM "waitlists" ORDER BY "waitlists"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mWaitlist Load (0.7ms)[0m  [1m[34mSELECT  "waitlists".* FROM "waitlists" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35mSQL (4.4ms)[0m  [1m[31mDELETE FROM "waitlists"[0m
+  [1m[36mWaitlist Load (0.7ms)[0m  [1m[34mSELECT  "waitlists".* FROM "waitlists" LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/waitlist/new/" for 127.0.0.1 at 2018-11-04 21:03:04 -0500
+  [1m[35m (27.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WaitlistsController#new as HTML
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+Completed 500 Internal Server Error in 111ms (ActiveRecord: 42.6ms)
+
+
+  
+ArgumentError (too few arguments):
+  
+app/controllers/waitlists_controller.rb:12:in `format'
+app/controllers/waitlists_controller.rb:12:in `new'
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:03:12 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (11.1ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:03:13.007812"], ["updated_at", "2018-11-05 02:03:13.007812"]]
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  Rendering pidgin_mailer/signup_email.html.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.html.erb within layouts/mailer (1.9ms)
+  Rendering pidgin_mailer/signup_email.text.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.text.erb within layouts/mailer (0.8ms)
+PidginMailer#signup_email: processed outbound mail in 779.5ms
+Sent mail to scmaina@ncsu.edu (1157.6ms)
+Date: Sun, 04 Nov 2018 21:03:14 -0500
+From: pidgin.hq@gmail.com
+To: scmaina@ncsu.edu
+Message-ID: <5bdfa4e23f1d9_85303ffd6c037e48455d3@Admins-MacBook-Air.local.mail>
+Subject: Welcome to Pidgin!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bdfa4e23b5f4_85303ffd6c037e48454dc";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bdfa4e23b5f4_85303ffd6c037e48454dc
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to pidgindelivery.com!
+===============================================
+You have made the awesome choice to #jointherevolution
+with pidgindelivery.com, your username is: @user.email
+We can't wait to start delivering to you soon!
+
+----==_mimepart_5bdfa4e23b5f4_85303ffd6c037e48454dc
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to Pidgin</h1>
+  <p>
+    You have made the awesome choice to #jointherevolution
+    with pidgindelivery.com, your email is: 
+    scmaina@ncsu.edu.<br>
+  </p>
+<p>We can't wait to start delivering to you soon</p>
+  </body>
+</html>
+
+----==_mimepart_5bdfa4e23b5f4_85303ffd6c037e48454dc--
+
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 20460ms (Views: 17999.3ms | ActiveRecord: 33.8ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:04:07 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:04:07.355487"], ["updated_at", "2018-11-05 02:04:07.355487"]]
+  [1m[35m (5.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  Rendering pidgin_mailer/signup_email.html.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.html.erb within layouts/mailer (2.1ms)
+  Rendering pidgin_mailer/signup_email.text.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.text.erb within layouts/mailer (0.9ms)
+PidginMailer#signup_email: processed outbound mail in 99.8ms
+Sent mail to scmaina@ncsu.edu (904.5ms)
+Date: Sun, 04 Nov 2018 21:04:07 -0500
+From: pidgin.hq@gmail.com
+To: scmaina@ncsu.edu
+Message-ID: <5bdfa517749d6_85303ffd6a5b9bd445784@Admins-MacBook-Air.local.mail>
+Subject: Welcome to Pidgin!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bdfa51770194_85303ffd6a5b9bd445672";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bdfa51770194_85303ffd6a5b9bd445672
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to pidgindelivery.com!
+===============================================
+You have made the awesome choice to #jointherevolution
+with pidgindelivery.com, your username is: @user.email
+We can't wait to start delivering to you soon!
+
+----==_mimepart_5bdfa51770194_85303ffd6a5b9bd445672
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to Pidgin</h1>
+  <p>
+    You have made the awesome choice to #jointherevolution
+    with pidgindelivery.com, your email is: 
+    scmaina@ncsu.edu.<br>
+  </p>
+<p>We can't wait to start delivering to you soon</p>
+  </body>
+</html>
+
+----==_mimepart_5bdfa51770194_85303ffd6a5b9bd445672--
+
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 8880ms (Views: 7841.3ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:04:41 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (6.9ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:04:41.627250"], ["updated_at", "2018-11-05 02:04:41.627250"]]
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 392ms (Views: 280.3ms | ActiveRecord: 41.1ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:04:53 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.9ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:04:53.114879"], ["updated_at", "2018-11-05 02:04:53.114879"]]
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 8274ms (Views: 8254.2ms | ActiveRecord: 9.2ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:05:20 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (5.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:05:20.180594"], ["updated_at", "2018-11-05 02:05:20.180594"]]
+  [1m[35m (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8241ms (Views: 8219.0ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:05:36 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:05:36.851435"], ["updated_at", "2018-11-05 02:05:36.851435"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 8682ms (Views: 8668.1ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:07:01 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `email' for nil:NilClass):
+    1: <h4 class="waitlist_thanks">
+    2: 	Thank you so much for joining our waitlist, we will send 
+    3: 	an email to <%= @person.email%> to keep you updated! <br>
+    4: 	-Owners, Pidgin
+    5: </h4>
+  
+app/views/waitlists/new.html.erb:3:in `_app_views_waitlists_new_html_erb__1407866158134830370_70357694075460'
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:07:49 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (8.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (5.2ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:07:49.947221"], ["updated_at", "2018-11-05 02:07:49.947221"]]
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (2.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 261ms (Views: 178.5ms | ActiveRecord: 41.8ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:08:06 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:08:07.039211"], ["updated_at", "2018-11-05 02:08:07.039211"]]
+  [1m[35m (6.2ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 182ms (Views: 149.8ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:11:42 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.7ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:11:42.699307"], ["updated_at", "2018-11-05 02:11:42.699307"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 531ms (Views: 460.6ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:13:47 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.9ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:13:47.934969"], ["updated_at", "2018-11-05 02:13:47.934969"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 194ms (Views: 148.4ms | ActiveRecord: 15.1ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:14:14 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:14:14.202302"], ["updated_at", "2018-11-05 02:14:14.202302"]]
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 145ms (Views: 129.2ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-04 21:14:17 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 182ms (Views: 123.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:14:27 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (6.2ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:14:27.484427"], ["updated_at", "2018-11-05 02:14:27.484427"]]
+  [1m[35m (11.4ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 184ms (Views: 157.3ms | ActiveRecord: 17.9ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:15:18 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:15:18.621014"], ["updated_at", "2018-11-05 02:15:18.621014"]]
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 5467ms (ActiveRecord: 7.8ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "	color: ": expected expression (e.g. 1px, bold), was "#"):
+    4:     <title>Pidgin</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <!--Required boostrap scss tags-->
+   10:     <meta charset="utf-8">
+  
+app/assets/stylesheets/signup_email.scss:9
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__288445737936280872_70357701400520'
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:15:32 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:15:32.891894"], ["updated_at", "2018-11-05 02:15:32.891894"]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5652ms (Views: 5635.2ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:16:06 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:16:06.965784"], ["updated_at", "2018-11-05 02:16:06.965784"]]
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5673ms (Views: 5660.3ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:17:00 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (12.1ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:17:00.401502"], ["updated_at", "2018-11-05 02:17:00.401502"]]
+  [1m[35m (5.2ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 5940ms (Views: 5912.1ms | ActiveRecord: 17.6ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:17:38 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (6.3ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:17:38.855151"], ["updated_at", "2018-11-05 02:17:38.855151"]]
+  [1m[35m (5.9ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 6131ms (Views: 6109.1ms | ActiveRecord: 12.5ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:18:12 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.2ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:18:12.560630"], ["updated_at", "2018-11-05 02:18:12.560630"]]
+  [1m[35m (12.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 6579ms (Views: 6548.9ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:18:36 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:18:36.271796"], ["updated_at", "2018-11-05 02:18:36.271796"]]
+  [1m[35m (6.7ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6305ms (Views: 6282.4ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:18:53 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:18:53.257088"], ["updated_at", "2018-11-05 02:18:53.257088"]]
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5477ms (Views: 5464.6ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:19:28 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (11.4ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:19:28.015401"], ["updated_at", "2018-11-05 02:19:28.015401"]]
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 7228ms (Views: 7199.8ms | ActiveRecord: 18.2ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:19:47 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:19:47.047114"], ["updated_at", "2018-11-05 02:19:47.047114"]]
+  [1m[35m (1.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 6094ms (Views: 6079.1ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:20:20 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (6.0ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:20:20.496683"], ["updated_at", "2018-11-05 02:20:20.496683"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 5639ms (Views: 5622.8ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:20:39 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (7.6ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:20:39.284773"], ["updated_at", "2018-11-05 02:20:39.284773"]]
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 6027ms (Views: 6002.0ms | ActiveRecord: 14.2ms)
+
+
+Started GET "/waitlist/new/?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-04 21:21:20 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.8ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-05 02:21:20.841031"], ["updated_at", "2018-11-05 02:21:20.841031"]]
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 6156ms (Views: 6132.2ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-04 21:22:09 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (29.2ms)
+Completed 200 OK in 157ms (Views: 149.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-04 21:34:01 -0500
+  [1m[35m (12.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1207.2ms)
+Completed 200 OK in 1394ms (Views: 1363.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-04 21:39:53 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (31.7ms)
+Completed 200 OK in 8219ms (Views: 8199.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-04 21:50:36 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (39.9ms)
+Completed 200 OK in 296ms (Views: 276.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-04 21:52:13 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (51.1ms)
+Completed 200 OK in 353ms (Views: 329.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-04 21:52:30 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 172ms (Views: 166.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-04 21:53:09 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 6386ms (Views: 6381.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-04 21:53:25 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 6022ms (Views: 6017.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-04 21:53:37 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 7090ms (Views: 7086.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-04 21:53:54 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 6266ms (Views: 6260.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-04 21:54:07 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 7438ms (Views: 7432.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-04 21:54:24 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 6819ms (Views: 6811.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-04 21:54:42 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (22.3ms)
+Completed 200 OK in 255ms (Views: 245.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-04 21:55:09 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (40.7ms)
+Completed 200 OK in 8143ms (Views: 8124.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-04 21:55:28 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 176ms (Views: 168.2ms | ActiveRecord: 0.0ms)
+
+
