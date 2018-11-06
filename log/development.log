@@ -7944,3 +7944,78 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 257ms (Views: 230.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-11-05 19:18:33 -0500
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (481.4ms)
+Completed 200 OK in 719ms (Views: 685.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/waitlist/new/?email=seanmainastreak%40gmail.com" for 127.0.0.1 at 2018-11-05 19:18:43 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"seanmainastreak@gmail.com"}
+  [1m[35m (3.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (42.9ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "seanmainastreak@gmail.com"], ["created_at", "2018-11-06 00:18:43.360063"], ["updated_at", "2018-11-06 00:18:43.360063"]]
+  [1m[35m (5.9ms)[0m  [1m[35mCOMMIT[0m
+  Rendering pidgin_mailer/signup_email.html.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.html.erb within layouts/mailer (2.4ms)
+  Rendering pidgin_mailer/signup_email.text.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.text.erb within layouts/mailer (0.6ms)
+PidginMailer#signup_email: processed outbound mail in 765.2ms
+Sent mail to seanmainastreak@gmail.com (1705.4ms)
+Date: Mon, 05 Nov 2018 19:18:44 -0500
+From: pidgin.hq@gmail.com
+To: seanmainastreak@gmail.com
+Message-ID: <5be0dde4ad0b5_9ac63fc240c1db98986d0@Admins-MacBook-Air.local.mail>
+Subject: Welcome to Pidgin!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5be0dde4a99cf_9ac63fc240c1db9898584";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5be0dde4a99cf_9ac63fc240c1db9898584
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to pidgindelivery.com!
+===============================================
+You have made the awesome choice to #jointherevolution
+with pidgindelivery.com, your username is: @user.email
+We can't wait to start delivering to you soon!
+
+----==_mimepart_5be0dde4a99cf_9ac63fc240c1db9898584
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Welcome to Pidgin</h1>
+  <p>
+    You have made the awesome choice to #jointherevolution
+    with pidgindelivery.com, your email is: 
+    seanmainastreak@gmail.com.<br>
+  </p>
+<p>We can't wait to start delivering to you soon</p>
+  </body>
+</html>
+
+----==_mimepart_5be0dde4a99cf_9ac63fc240c1db9898584--
+
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3269ms (Views: 105.4ms | ActiveRecord: 102.6ms)
+
+
