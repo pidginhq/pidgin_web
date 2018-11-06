@@ -84,8 +84,24 @@
 	.order_process .subheader{
 		font-family: "pidgin-txt";
 	}
+	//Footer bar
+	.main_footer_bar{
+		overflow: auto;
+	}
 	.main_footer_bar .txt_join_pidgin{
+		width: 70%;
 		text-align: center;
+		font-size: 1rem;
 		font-family: "pidgin-txt";
 	}
+	//Table
+	#footer_row{
+		height: 100%;
+		
+	}
+	#footer_row #footer_pizza{
+		height: 80px;
+	}
+
+
 }

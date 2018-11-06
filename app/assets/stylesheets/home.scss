@@ -237,40 +237,41 @@ body{
 }
 //Join the revolution...
 .main_footer_bar .txt_join_pidgin{
+	font-family: "pidgin-txt";
 	margin: 2% 5% 0% 15%;
 	color: white;
 }
 //White divisor line
 .main_footer_bar .footer_divide{
 	border: 1px solid white;
-	margin: 1% 2.5% 0% 15%;
+	margin: 1% 15% 0% 15%;
 }
 
 //Table for pidgin's information
-#tbl_information{
-	text-decoration: none;
-	border: none;
-	margin-top : 2%;
-	margin-left: 15%;
-	width: 80%;
+#footer_row{
+	background-color: none;
+	margin: 2% 15% 0% 15%;
+	height: 400px;
 }
-.borderless th{
-	border: none;
+#footer_row #footer_pizza{
+	height: 100%;
 }
-//Pidgin Logo
-#tbl_information .imgLogoPidgin{
-	height: 45px;
+#footer_pizza .img_footer_logo{
+	width: 100%;
 }
-//Styling for columns
-#tbl_information .ttlColumn{
+#footer_section .ttl_section{
 	color: white;
-	vertical-align: top;
+	text-align: center;
 }
-#tbl_information th{
-	color: grey;
+#footer_section .txt_info{
+	color: white;
+	font-family: "pidgin-txt";
+	text-align: center;
+	font-size: 1.15rem;
 }
-//Styling for links
-#tbl_information .footer_link{
-	text-decration: none;
-	color: grey;
+#footer_section .footer_link{
+	color: white;
+}
+#footer_section .footer_link:hover{
+	background: none;
 }
