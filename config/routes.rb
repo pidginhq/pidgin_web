@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get '/' => "home#index"
   resource :waitlist
   get '/waitlist/new' => "home#index"
+  get '/waitlist/show' => "waitlists#show"
 end

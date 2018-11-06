@@ -1,4 +1,5 @@
 class WaitlistsController < ApplicationController
+  #New
 	def new
 		@person = Waitlist.new
 		@person.email = params[:email]
@@ -11,5 +12,9 @@ class WaitlistsController < ApplicationController
       			format.html { render :new }
       			format.json { render json: @user.errors, status: :unprocessable_entity }
     		end 	
+    end
+    #Show
+    def show
+
     end
 end
