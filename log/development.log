@@ -9613,3 +9613,653 @@ Processing by HomeController#faq as HTML
 Completed 200 OK in 326ms (Views: 320.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-11-06 22:51:29 -0500
+  [1m[35m (4.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2117.0ms)
+Completed 200 OK in 2337ms (Views: 2307.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 22:51:39 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 183ms (Views: 175.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 22:52:23 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 13225ms (Views: 13203.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 22:52:57 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 10976ms (Views: 10713.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 22:54:47 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 6169ms (Views: 6161.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 22:55:39 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 6181ms (Views: 6174.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 22:56:34 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 5801ms (Views: 5794.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 22:57:11 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 6070ms (Views: 6063.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 22:57:51 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 5726ms (Views: 5719.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 22:58:28 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 5661ms (Views: 5653.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 22:58:51 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 5824ms (Views: 5816.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 22:59:15 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 5971ms (Views: 5965.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 22:59:40 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 5743ms (Views: 5737.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:00:14 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 5736ms (Views: 5728.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:00:40 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 5863ms (Views: 5857.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:01:17 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 5489ms (Views: 5482.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:01:38 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 5556ms (Views: 5546.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:01:50 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 5624ms (Views: 5620.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:02:13 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 5749ms (Views: 5743.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:02:48 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 5523ms (Views: 5513.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:03:19 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 5675ms (Views: 5669.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:05:16 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 7063ms (Views: 7041.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:05:59 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 5645ms (Views: 5638.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:06:14 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 5939ms (Views: 5932.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:06:42 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 146ms (Views: 140.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:06:58 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 6056ms (Views: 6048.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:07:10 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 5489ms (Views: 5483.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:07:23 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 5454ms (Views: 5448.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:07:50 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 5719ms (Views: 5708.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:08:09 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 5595ms (Views: 5588.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:08:30 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 5761ms (Views: 5753.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:08:45 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 5516ms (Views: 5509.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:09:13 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 5448ms (Views: 5441.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:09:31 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 6298ms (Views: 6291.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:10:13 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 5721ms (Views: 5713.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:10:28 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 5710ms (Views: 5705.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:10:42 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 126ms (Views: 120.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:11:02 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 178ms (Views: 171.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:11:44 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 5930ms (Views: 5925.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:13:14 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 6187ms (Views: 6180.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:13:32 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 5548ms (Views: 5539.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:13:55 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 5475ms (Views: 5470.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:14:12 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 5579ms (Views: 5570.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:14:26 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 6025ms (Views: 6017.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:14:59 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 5602ms (Views: 5597.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:15:44 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 5787ms (Views: 5781.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:16:08 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 5521ms (Views: 5517.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:16:22 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 5595ms (Views: 5591.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:16:39 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 5586ms (Views: 5576.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:16:57 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 5478ms (Views: 5471.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:17:32 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 5498ms (Views: 5491.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:18:09 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 6310ms (Views: 6303.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:18:25 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 5616ms (Views: 5611.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:18:58 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 6129ms (Views: 6121.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:19:14 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 5327ms (Views: 5320.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:19:28 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 6026ms (Views: 6021.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:19:40 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 5618ms (Views: 5612.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:25:43 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 6313ms (Views: 6301.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:26:10 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 5596ms (Views: 5588.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:26:29 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 5884ms (Views: 5878.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:26:46 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 6128ms (Views: 6121.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:27:17 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 5864ms (Views: 5858.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:27:49 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 5641ms (Views: 5636.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:28:08 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 5615ms (Views: 5606.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:28:21 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 5686ms (Views: 5678.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:28:39 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 5474ms (Views: 5467.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:29:12 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 5854ms (Views: 5848.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:29:32 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 6319ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "		top": expected ";", was ": 0;"):
+    4:     <title>Pidgin</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:     <!--Required boostrap scss tags-->
+   10:     <meta charset="utf-8">
+  
+app/assets/stylesheets/mobile_repeat.scss:5
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___60000603934956503_70347202371020'
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:29:45 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 136ms (Views: 129.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:29:58 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 6541ms (Views: 6530.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:30:23 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 5672ms (Views: 5663.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:30:42 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 5751ms (Views: 5744.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:30:55 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 5659ms (Views: 5645.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:31:15 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 5384ms (Views: 5378.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-06 23:31:27 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 141ms (Views: 132.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-06 23:31:28 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 181ms (Views: 174.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:31:30 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (34.8ms)
+Completed 200 OK in 208ms (Views: 201.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:31:49 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 5666ms (Views: 5660.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:32:05 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 138ms (Views: 133.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:32:32 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 5471ms (Views: 5463.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:32:47 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 5513ms (Views: 5506.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:33:05 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 5257ms (Views: 5251.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:33:56 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 6055ms (Views: 6049.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:34:17 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 5219ms (Views: 5211.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:35:02 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 6022ms (Views: 6016.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:35:31 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 5305ms (Views: 5301.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:35:56 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 5515ms (Views: 5507.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:36:12 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 113ms (Views: 109.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:36:17 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 130ms (Views: 124.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:36:40 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 7013ms (Views: 7007.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2018-11-06 23:37:21 -0500
+Processing by HomeController#faq as HTML
+  Rendering home/faq.html.erb within layouts/application
+  Rendered home/faq.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 9816ms (Views: 9809.2ms | ActiveRecord: 0.0ms)
+
+

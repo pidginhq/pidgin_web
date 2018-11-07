@@ -1,0 +1,23 @@
+// Mobile
+@media (max-width: 767.5px) {
+	.rep_header_bar{
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		height: 5rem;
+	}
+	//The #a_home reroutes back to the home/index page
+	#id_row{
+		height: 100%;
+	}
+	.rep_header_bar #link_home{
+		margin: 10% auto;	
+		display: block;
+	}
+	//Header section for the "loader", "login", and "signup" buttons
+	.rep_header_bar .header_section_btn{
+		visibility: hidden;
+	}
+	
+}
