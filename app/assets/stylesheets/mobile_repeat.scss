@@ -1,23 +1,33 @@
-// Mobile
+// Mobile - Everything and Anyting repeatable
 @media (max-width: 767.5px) {
 	.rep_header_bar{
-		position: absolute;
-		top: 0;
-		right: 0;
-		left: 0;
-		height: 5rem;
+		position: fixed;
+		height: 10px;
 	}
 	//The #a_home reroutes back to the home/index page
-	#id_row{
+	#id_row{	
 		height: 100%;
 	}
-	.rep_header_bar #link_home{
-		margin: 10% auto;	
+	//Home
+	#id_row #link_home{
+		position: absolute;
+		margin-top: 5.5%;
+		margin-left: 13%;
 		display: block;
 	}
-	//Header section for the "loader", "login", and "signup" buttons
-	.rep_header_bar .header_section_btn{
-		visibility: hidden;
+	//Logo
+	#link_home .logo_pidgin{
+		width: 100%;
+		hieght: 12.0px;
 	}
-	
+	//Header section for the "loader", "login", and "signup" buttons
+	#id_row .rep_section_btn{
+		margin-top: 4%;
+		margin-left: 50%;
+		width: 42.5%;
+	}
+	#id_row .rep_section_btn .btn_header{
+		width: 90%;
+	}
+		
 }
