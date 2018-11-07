@@ -1,0 +1,63 @@
+//We declare our pidgin colors here
+$pidgin: #F2975a;
+$pidgin_dark: #ef775b;
+$theme_grey: #919191;
+
+//Mixin linear-gradient here to call for main header section
+
+@mixin linear-gradient($direction, $color-stops...) {
+  background: nth(nth($color-stops, 1), 1);
+  background: -webkit-linear-gradient(legacy-direction($direction), $color-stops);
+  background: linear-gradient($direction, $color-stops);
+}
+
+
+html{
+	font-size: 20px;
+}
+body{
+	width: 100%;
+}
+//Replicated Header Bar (from homepage)
+.rep_header_bar{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	min-height: 6rem;
+	max-height: 8rem;
+	@include linear-gradient($pidgin_dark, $pidgin);
+}
+//The #a_home reroutes back to the home/index page
+.rep_header_bar #link_home{
+	display: inline-block;
+	margin: 2% 0% 1% 15%;
+	width: 6.75rem;
+	height: 2rem;
+	color: white;
+	font-family: "pidgin";
+	text-decoration: none;
+}
+//Header section for the "loader", "login", and "signup" buttons
+.rep_header_bar .header_section_btn{
+	display: inline-block;
+	margin: 2% 0% 1% 30.5%;
+	height: 2.5rem;
+	width: 32.5%;
+	display: flex;
+
+}
+.header_section_btn .btn_header{
+	height: 2.5rem;
+	width: 20rem;
+	border: 1px solid white;
+	background: transparent;
+	color: white;
+	font-size: 0.85rem;
+	font-family: "pidgin-body";
+	text-decoration: none;
+	text-align: center;
+	padding-top: 13.5px;
+	line-height: 1rem;
+}

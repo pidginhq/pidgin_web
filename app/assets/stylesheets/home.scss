@@ -28,7 +28,7 @@ body{
 .main_header_bar{
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: 0;	
 	left: 0;
 	width: 100%;
 	min-height: 25rem;
@@ -60,6 +60,9 @@ body{
 	width: 100%;
 	background-image: image-url("pidginLogo.png")
 }
+#link_home:hover{
+	background: none;
+}
 //Header section for the "loader", "login", and "signup" buttons
 .top_header_bar .header_section_btn{
 	position: absolute;
@@ -69,7 +72,7 @@ body{
 	display: flex;
 
 }
-.header_divide{
+.header_divide{	
 	border: 1px solid white;
 	margin: 1% 2.5% 0% 2.5%;
 }

@@ -1,0 +1,85 @@
+<div class="rep_header_bar">
+	<!--pidgin logo-->
+	<div class="row">
+		<a href="/" id="link_home">
+			<%= image_tag("pidginLogo.png", class: "img logo_pidgin") %>
+		</a>
+			<!--Loader, Login, Signup Buttons-->
+			<div class="div header_section_btn">
+				<%= link_to 'Loader', '#', class: 'btn_header' , id: "btn_header" %>
+				<%= link_to 'Login', '#', class: 'btn_header', id: "btn_login" %>
+				<%= link_to 'FAQ', '/faq', class: 'btn_header', id: "btn_signup" %>
+			</div>
+	</div>
+</div>
+
+
+<!--Frequently Asked Questions -->
+<h1 class="ttl_faq">Frequently Asked Questions</h1>
+
+<!--FAQ subtitle/welcome text-->
+<h5 class="subttl_faq">Hey there! We know you have many questions, so we're here to help. If you can't find any of the answers
+					  to your questions on this page, you can always <%=link_to "contact us", "#" %>, and we will do our
+					  best to help you out! 
+</h5>
+<!--Question response goes here -->
+<h4 class="hd_question"> What are the benefits of using Pidgin over normal food delivery?</h4>
+<h5 class="hd_response"> There are tons of benefits to using Pidgin over normal food delivery services!
+						 Our main benefits include lower-priced food delivery, lower wait time, and a 
+						 healthier environmental impact!
+</h5>
+<!--Question/Response goes here -->
+<h4 class="hd_question"> When will you launch?</h4>
+<h5 class="hd_response"> We plan to begin testing in specific areas in 2019, and officially release in 2021.
+</h5>
+<!--Question/Response goes here -->
+<h4 class="hd_question"> How does Pidgin work?</h4>
+<h5 class="hd_response"> Simple! You place an order on our app just like any other delivery service. Then, a loader will get your 
+						 order send it off to you in one of our drones. Our drones will safely fly over traffic and deliver it to 
+						 you in an open space - all within minutes.
+</h5>
+<!--Question/Response goes here -->
+<h4 class="hd_question"> When can I order through Pidgin?</h4>
+<h5 class="hd_response"> During our testing period there will be limited areas where you can order Pidgin only during daytime.
+						 Once we officially launch in 2021 we plan to be offering drone delivery 24/7.
+</h5>
+<br></br>
+<!--Footer bar -->
+<div class="main_footer_bar">
+	<!--Initial text in the footer bar above the white hr line-->
+	<p class="txt_join_pidgin">Pidgin is the <strong>first</strong> drone-food delivery service operating out of the United States. <em>Join the revolution.</em></p>
+	<!--White divider line above main footer content-->
+	<hr class="hr footer_divide">
+	<div class="row" id="footer_row">
+		<div class="col-sm-3" id="footer_pizza">
+			<%= image_tag("pidginLogo.png", class: "img_footer_logo") %>
+		</div>
+		<div class="col-sm-3" id="footer_section">
+			<h3 class="ttl_section">Ask Us</h3>
+			<br><br>
+			<p class="txt_info">FAQ</p><br>
+			<p class="txt_info">Contact Us</p>
+		</div>
+		<div class="col-sm-3" id="footer_section">
+			<h3 class="ttl_section">Follow Us</h3>
+			<br><br>
+			<p class="txt_info">
+				<%=link_to "Instagram", "https://www.instagram.com/pidgin.inc/", class: "footer_link"%>
+			</p><br>
+			<p class="txt_info">
+				<%=link_to "Facebook", "https://www.facebook.com/PidginDelivery/", class: "footer_link"%>
+			</p><br>
+			<p class="txt_info">
+				<%=link_to "Twitter", "https://twitter.com/PidginDelivery", class: "footer_link"%>
+			</p><br>
+			<p class="txt_info">
+				<%=link_to "Youtube", "https://m.youtube.com/channel/UCV_YdQIboHeZ0zi_q6XJdnA", class: "footer_link"%>
+			</p><br>
+		</div>
+		<div class="col-sm-3" id="footer_section">
+			<h3 class="ttl_section">Cities</h3>
+			<br><br>
+			<p class="txt_info">Raleigh</p><br>
+		</div>
+	</div>
+</div>
