@@ -1,0 +1,89 @@
+<!--Header Bar-->
+<div class="rep_header_bar">
+	<!--pidgin logo-->
+	<div class="row" id="id_row">
+		<a href="/" id="link_home">
+			<%= image_tag("pidginLogo.png", class: "img logo_pidgin") %>
+		</a>
+			<!--Loader, Login, Signup Buttons-->
+			<div class="div rep_section_btn">
+				<%= link_to 'About', '#', class: 'btn_header' , id: "link_about" %>
+				<%= link_to 'Contact Us', '#', class: 'btn_header', id: "btn_login" %>
+				<%= link_to 'FAQ', '/faq', class: 'btn_header', id: "link_faq" %>
+			</div>
+	</div>
+</div>
+
+<h1 class="hd_about">About Pidgin</h1>
+<h4 class="hd_about_contact">
+	If you have any more questions about Pidgin, please see our
+	<%=link_to "Frequently Asked Questions,", "/faq", class: "txt_link"%>
+	or 
+	<%=link_to "Contact Us.", "/faq", class: "txt_link"%>
+	We'd love to hear from you!
+</h4>
+<!--General Info-->
+<h3 class="ttl_sec_about">General Information</h3>
+<h5 class="ttl_sec_subinfo">
+	Pidgin is a food delivery service that uses drones as apposed to cars - we never deal with traffic.
+	In recent years technology has opened up many opportunities that allow those who have an idea to 
+	change the world - with a billion dollar industry forming behind the scenes, we are planning to be one 
+	of them. Founded in Raleigh, North Carolina in October, 2018, Pidgin plans to officially launch in 2021
+	in cities such as Raleigh, Los Angeles, and San Francisco. Pidgin believes in looking for waysto lower
+	our environmental footprint while improving customer satisfaction - that is the key to a contentful future.
+</h5>
+
+<!--The Idea-->
+<h3 class="ttl_sec_about">The Idea</h3>
+<h5 class="ttl_sec_subinfo">
+	Sean Maina came up with the idea of delivering food through drones locally after realizing that the average 
+	wait time for food delivery has gone up in recent years. 
+</h5>
+
+<!--The Idea-->
+<h3 class="ttl_sec_about">The Team</h3>
+<h5 class="ttl_sec_subinfo">
+	Sean Maina and Wyatt Bare first founded Pidgin in October of 2018. Currently, Sean and Wyatt are the only members
+	at Pidgin. Sean Maina specializes in the technical creation of the app and website while Wyatt Bare is in front-end marketing and design.
+</h5>
+<br>
+<br>
+<!--Footer bar -->
+<div class="main_footer_bar">
+	<!--Initial text in the footer bar above the white hr line-->
+	<p class="txt_join_pidgin">Pidgin is the <strong>first</strong> drone-food delivery service operating out of the United States. <em>Join the revolution.</em></p>
+	<!--White divider line above main footer content-->
+	<hr class="hr footer_divide">
+	<div class="row" id="footer_row">
+		<div class="col-sm-3" id="footer_pizza">
+			<%= image_tag("pidginLogo.png", class: "img_footer_logo") %>
+		</div>
+		<div class="col-sm-3" id="footer_section">
+			<h3 class="ttl_section">Ask Us</h3>
+			<br><br>
+			<p class="txt_info">FAQ</p><br>
+			<p class="txt_info">Contact Us</p>
+		</div>
+		<div class="col-sm-3" id="footer_section">
+			<h3 class="ttl_section">Follow Us</h3>
+			<br><br>
+			<p class="txt_info">
+				<%=link_to "Instagram", "https://www.instagram.com/pidgin.inc/", class: "footer_link"%>
+			</p><br>
+			<p class="txt_info">
+				<%=link_to "Facebook", "https://www.facebook.com/PidginDelivery/", class: "footer_link"%>
+			</p><br>
+			<p class="txt_info">
+				<%=link_to "Twitter", "https://twitter.com/PidginDelivery", class: "footer_link"%>
+			</p><br>
+			<p class="txt_info">
+				<%=link_to "Youtube", "https://m.youtube.com/channel/UCV_YdQIboHeZ0zi_q6XJdnA", class: "footer_link"%>
+			</p><br>
+		</div>
+		<div class="col-sm-3" id="footer_section">
+			<h3 class="ttl_section">Cities</h3>
+			<br><br>
+			<p class="txt_info">Raleigh</p><br>
+		</div>
+	</div>
+</div>
