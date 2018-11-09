@@ -18,7 +18,6 @@
 	//Logo
 	#link_home .logo_pidgin{
 		width: 100%;
-		hieght: 12.0px;
 	}
 	//Header section for the "loader", "login", and "signup" buttons
 	#id_row .rep_section_btn{
@@ -28,6 +27,7 @@
 	}
 	#id_row .rep_section_btn .btn_header{
 		width: 90%;
+		font-size: .65rem;
 	}
 		
 }

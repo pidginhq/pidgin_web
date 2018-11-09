@@ -7,7 +7,7 @@
 			<!--Loader, Login, Signup Buttons-->
 			<div class="div rep_section_btn">
 				<%= link_to 'About', '/about', class: 'btn_header' , id: "btn_header" %>
-				<%= link_to 'Contact Us', '#', class: 'btn_header', id: "btn_login" %>
+				<%= link_to 'Contact', '#', class: 'btn_header', id: "btn_login" %>
 				<%= link_to 'FAQ', '/faq', class: 'btn_header', id: "link_faq" %>
 			</div>
 	</div>
@@ -19,7 +19,7 @@
 
 <!--FAQ subtitle/welcome text-->
 <h5 class="subttl_faq">Hey there! We know you have many questions, so we're here to help. If you can't find any of the answers
-					  to your questions on this page, you can always <%=link_to "contact us", "#" %>, and we will do our
+					  to your questions on this page, you can always <%=link_to "Contact Us", "#", id: "link_txt" %>, and we will do our
 					  best to help you out! 
 </h5>
 <!--Question response goes here -->

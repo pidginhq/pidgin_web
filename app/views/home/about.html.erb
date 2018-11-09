@@ -8,7 +8,7 @@
 			<!--Loader, Login, Signup Buttons-->
 			<div class="div rep_section_btn">
 				<%= link_to 'About', '#', class: 'btn_header' , id: "link_about" %>
-				<%= link_to 'Contact Us', '#', class: 'btn_header', id: "btn_login" %>
+				<%= link_to 'Contact', '#', class: 'btn_header', id: "btn_login" %>
 				<%= link_to 'FAQ', '/faq', class: 'btn_header', id: "link_faq" %>
 			</div>
 	</div>
@@ -17,9 +17,9 @@
 <h1 class="hd_about">About Pidgin</h1>
 <h4 class="hd_about_contact">
 	If you have any more questions about Pidgin, please see our
-	<%=link_to "Frequently Asked Questions,", "/faq", class: "txt_link"%>
+	<%=link_to "Frequently Asked Questions,", "/faq", id: "link_txt"%>
 	or 
-	<%=link_to "Contact Us.", "/faq", class: "txt_link"%>
+	<%=link_to "Contact Us.", "#", id: "link_txt"%>
 	We'd love to hear from you!
 </h4>
 <!--General Info-->
