@@ -90,7 +90,7 @@ Rails.application.configure do
     :address              => "smtp.gmail.com",
     :port                 => 587,
     :user_name            => "pidgin.hq@gmail.com",
-    :password             => "innovatewing62018!",
+    :password             => "innovatewing102018!",
     :authentication       => "plain",
     :enable_starttls_auto => true
   }
