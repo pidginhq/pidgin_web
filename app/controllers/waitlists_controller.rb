@@ -15,7 +15,4 @@ class WaitlistsController < ApplicationController
     		end 	
     end
     #Show
-    def show
-
-    end
 end

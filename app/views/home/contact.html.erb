@@ -1,0 +1,41 @@
+<!--Contact Page-->
+<!--Header Bar-->
+<div class="rep_header_bar">
+	<!--pidgin logo-->
+	<div class="row" id="id_row">
+		<a href="/" id="link_home">
+			<%= image_tag("pidginLogo.png", class: "img logo_pidgin") %>
+		</a>
+			<!--Loader, Login, Signup Buttons-->
+			<div class="div rep_section_btn">
+				<%= link_to 'About', '/about', class: 'btn_header' , id: "link_about" %>
+				<%= link_to 'Contact', '/contact', class: 'btn_header', id: "link_contact" %>
+				<%= link_to 'FAQ', '/faq', class: 'btn_header', id: "link_faq" %>
+			</div>
+	</div>
+</div>
+<!--Contact Us with subtitle -->
+<h1 class="hd_contact">Contact Us</h1>
+<h4 class="hd_contact_subttl">Hey! We love hearing from you, but we're also super busy making Pidgin as good as
+							  it can be, so please check out our <%=link_to "Frequently Asked Questions", "/faq", id: "link_txt"%> page to make sure we haven't answered your awesome question already.
+
+</h4>
+<!--Contact form -->
+<form id="contact_form" action="/contact">
+	<div class="form-group">
+  		<!--Name-->
+  		<label for="usr">Name*</label>
+		<%= text_field_tag :name, params[:name], placeholder: "Name", class: "form-control" %>
+  		<!--Email Address-->
+  		<label for="email" id="ttl_email">Email Address*</label>
+  		<%= text_field_tag :email, params[:email], placeholder: "Enter your email", class: "form-control" %>
+  		<!--Subject-->
+  		<label for="subject" id="ttl_subject">Subject*</label>
+  		<%= text_field_tag :subject, params[:subject], placeholder: "Subject/Inquiry", class: "form-control" %>
+  		<!--Message-->
+  		<label for="subject" id="ttl_subject">Message*</label>
+  		<%= text_area_tag :message, params[:message], placeholder: "Message", rows: 5,  class: "form-control" %>
+  		<br><br>
+  		<button type="submit" class="btn btn-primary">Submit</button>
+	</div>
+</form>
