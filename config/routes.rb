@@ -6,6 +6,6 @@ Rails.application.routes.draw do
   get '/contact' => "home#contact"
   resource :waitlist
   get '/waitlist/new' => "home#index"
-  get '/contact' => "home#email"
+  get '/contact_pidgin' => "home#contact_pidgin"
   get '/waitlist/show' => "waitlists#show"
 end

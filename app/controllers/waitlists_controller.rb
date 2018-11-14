@@ -14,5 +14,5 @@ class WaitlistsController < ApplicationController
       			format.json { render json: @user.errors, status: :unprocessable_entity }
     		end 	
     end
-    #Show
+    
 end

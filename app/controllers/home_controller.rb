@@ -11,12 +11,14 @@ class HomeController < ApplicationController
 	#Contact
 	def contact
 	end
-	def email
-		puts "Hey"
-      	@name = params[:name]
-      	@email = params[:email]
-      	@subject = params[:subject]
-      	@message = params[:message]
-      	PidginMailer.contact_email(@name, @email, @subject, @inquiry).deliver_now
-    end
+	#Contact Pidgin
+	#Creates a contact to save to DB which we will later use to send personalized emails
+	def contact_pidgin
+		@contact = Contact.new
+		@contact.name = params[:name]
+		@contact.email = params[:email]
+		@contact.subject = params[:subject]
+		@contact.mail_message = params[:mail_message]
+		@contact.save
+	end
 end
