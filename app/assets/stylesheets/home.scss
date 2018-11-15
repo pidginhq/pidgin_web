@@ -101,9 +101,6 @@ body{
 #link_faq{
 	margin-left: 5%;
 }
-
-
-
 /** This is where the header subsection begins */
 #header_subsection{
 	height: 65%;
@@ -114,10 +111,12 @@ body{
 	height: 100%;
 }
 #header_subsection .img_pizza_box{
-	margin: 10% auto;
+	position: absolute;
+	margin: -10% auto;
 	display: block;
-	height: 20rem;
-	width: 30rem;
+	height: 30rem;
+	width: 45rem;
+	opacity: 0.2;
 }
 /** Form for registering email for updates */
 #header_subsection #form_pidgin_register{
@@ -127,10 +126,11 @@ body{
 	font-family: "pidgin-body";
 }
 #form_pidgin_register .pidgin_register_header{
-	margin-left: 15%;
+	line-height: 4.15rem;
 	text-align: right;
-	font-size: 3.25rem;
-	height: 35%;
+	font-size: 3.75rem;
+	height: 37%;
+	width: 100%;
 }
 #form_pidgin_register .pidgin_register_subheader{
 	margin-top: 5%;
@@ -165,9 +165,10 @@ body{
 	line-height: 1.4rem;
 }
 .img_drone{
+	position: absolute;
 	display: inline-block;
-	margin-left: 30%;
-	height: 200px;
+	margin: -15% 0% 0% 7.5%;
+	height: 1000px;
 }
 
 /** This section is for "How it Works" bar/div */
@@ -190,16 +191,15 @@ body{
 	text-align: center;
 	margin-top: 2%;
 	display: block;
-	font-family: "pidgin-body";
+	font-family: "pidgin-txt";
 }
 //This is for the three hover-buttons
 .order_process #process_section{
 	margin: 6% auto;
-	min-height: 12rem;
-	width: 47%;
+	min-height: 13rem;
+	width: 60%;
 	overflow: hidden;
 }
-//Process section buttons
 #process_section .process_step{
 	height: 100%;
 	width: 100%;
