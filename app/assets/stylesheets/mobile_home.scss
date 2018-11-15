@@ -1,5 +1,5 @@
 // Mobile
-@media (max-width: 991.98px) {
+@media (max-width: 575.98px) {
 	.main_header_bar{
 		position: absolute;
 		top: 0;
@@ -98,8 +98,8 @@
 		font-family: "pidgin-txt";
 	}
 	.img_drone{
+		width: .00001%;
 		visibility: hidden;
-		width: 80%;
 	}
 	//Table
 	#footer_row{
