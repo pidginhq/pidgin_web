@@ -116,7 +116,6 @@ body{
 	display: block;
 	height: 30rem;
 	width: 45rem;
-	opacity: 0.2;
 }
 /** Form for registering email for updates */
 #header_subsection #form_pidgin_register{
@@ -241,6 +240,7 @@ body{
 }
 //Join the revolution...
 .main_footer_bar .txt_join_pidgin{
+	font-size: 1.5rem;
 	font-family: "pidgin-txt";
 	margin: 2% 5% 0% 15%;
 	color: white;

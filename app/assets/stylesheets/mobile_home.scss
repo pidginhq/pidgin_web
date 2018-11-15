@@ -19,6 +19,10 @@
 	.header_section_btn .btn_header{
 	 	width: 70%;
 	}
+	.header_divide{
+		border: 1px solid white;
+
+	}
 	/** This is where the header subsection begins */
 	#header_subsection{
 		margin: 0 auto;
@@ -37,8 +41,7 @@
 		position: fixed;
 		margin: 5% 0% 0% -35%;
 		display: block;
-		opacity: 0.2;		
-		order: 2;
+		opacity: 0.2;
 	}
 	// Form to register for updates
 	#header_subsection #form_pidgin_register{
@@ -74,15 +77,15 @@
 		font-family: "pidgin-txt";
 	}
 	.order_process{
-		margin-top: -95%;
-		height: 40rem;
+		margin-top: -125%;
+		height: 45rem;
 		display: block;
-	}
-	.order_process #process_section{
-		width: 65%;
 	}
 	.order_process .subheader{
 		font-family: "pidgin-txt";
+	}
+	.order_process #process_section{
+		width: 65%;
 	}
 	//Footer bar
 	.main_footer_bar{
@@ -96,6 +99,7 @@
 	}
 	.img_drone{
 		visibility: hidden;
+		width: 80%;
 	}
 	//Table
 	#footer_row{

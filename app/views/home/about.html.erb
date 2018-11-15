@@ -56,13 +56,19 @@
 	<hr class="hr footer_divide">
 	<div class="row" id="footer_row">
 		<div class="col-sm-3" id="footer_pizza">
-			<%= image_tag("pidginLogo.png", class: "img_footer_logo") %>
+			<a href="/">
+				<%= image_tag("pidginLogo.png", class: "img_footer_logo") %>
+			</a>
 		</div>
 		<div class="col-sm-3" id="footer_section">
 			<h3 class="ttl_section">Ask Us</h3>
 			<br><br>
-			<p class="txt_info">FAQ</p><br>
-			<p class="txt_info">Contact Us</p>
+			<p class="txt_info">
+				<%=link_to "FAQ", "/faq", class: "footer_link"%>
+			</p><br>
+			<p class="txt_info">
+				<%=link_to "Contact Us", "/contact", class: "footer_link"%>
+			</p>
 		</div>
 		<div class="col-sm-3" id="footer_section">
 			<h3 class="ttl_section">Follow Us</h3>
