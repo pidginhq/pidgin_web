@@ -199,9 +199,26 @@ body{
 	width: 60%;
 	overflow: hidden;
 }
-#process_section .process_step{
-	height: 100%;
-	width: 100%;
+//Order Step
+#process_section #section_step_order{
+	border-radius: 30px;
+	background: image-url('Order.png');
+	background-size: cover;
+}
+//Receive Step
+#process_section #section_step_receive{
+	border-radius: 30px;
+	background: image-url('Receive.jpg');
+	background-size: cover;
+}
+//Enjoy Step
+#process_section #section_step_enjoy{
+	border-radius: 30px;
+	background: image-url('Enjoy.jpg');
+	background-size: cover;
+}
+.btn-default{
+	height: 13rem;
 	border-radius: 25%;	
 	text-align: center;
 	font-family: "pidgin-body";
@@ -209,73 +226,8 @@ body{
 	font-size: 2rem;
 	overflow: hidden;
 }
-.process_step .step_name{
-	margin: 3.5rem auto;
+#process_step .img_step{
 	height: 100%;
-	color: black;
-}
-//Order Step
-#step_order{
-	background-image: image-url("Order.png");
-	background-size: cover;
-}
-//Receive Step
-#step_receive{
-	background-image: image-url("Receive.jpg");
-	background-size: cover;
-}
-//Enjoy Step
-#step_enjoy{
-	background-image: image-url("Enjoy.jpg");
-	background-size: cover;
-}
-
-/** This section is the footer bar*/
-//Main footer bar
-.main_footer_bar{
-	height: 30rem;
 	width: 100%;
-	background-color: black;
-	overflow: hidden;
-}
-//Join the revolution...
-.main_footer_bar .txt_join_pidgin{
-	font-size: 1.5rem;
-	font-family: "pidgin-txt";
-	margin: 2% 5% 0% 15%;
-	color: white;
-}
-//White divisor line
-.main_footer_bar .footer_divide{
-	border: 1px solid white;
-	margin: 1% 15% 0% 15%;
-}
-
-//Table for pidgin's information
-#footer_row{
-	background-color: none;
-	margin: 2% 15% 0% 15%;
-	height: 400px;
-}
-#footer_row #footer_pizza{
-	height: 100%;
-}
-#footer_pizza .img_footer_logo{
-	width: 100%;
-}
-#footer_section .ttl_section{
-	color: white;
-	text-align: center;
-}
-#footer_section .txt_info{
-	color: white;
-	font-family: "pidgin-txt";
-	text-align: center;
-	font-size: 1.15rem;
-}
-#footer_section .footer_link{
-	color: white;
-}
-#footer_section .footer_link:hover{
-	background: none;
+	background-size: cover;
 }

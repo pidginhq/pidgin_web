@@ -8,7 +8,7 @@
 		<!--Loader, Login, Signup Buttons-->
 		<div class="div header_section_btn">
 			<%= link_to 'About', '/about', class: 'btn_header' , id: "link_about" %>
-			<%= link_to 'Contact', '/contact', class: 'btn_header', id: "link_contact" %>
+			<%= link_to 'Contact', '/contact_us', class: 'btn_header', id: "link_contact" %>
 			<%= link_to 'FAQ', '/faq', class: 'btn_header', id: "link_faq" %>
 		</div>
 	</div>
@@ -58,20 +58,22 @@
 	<!--This div section is for the three main butons-->
 	<div class="row" id="process_section">
 		<div class="col-sm-4">
-			<div class="process_step" id="step_order">
-				<div class="step_name">Order</div>
-			</div>
+			<button class="btn btn-default" id="section_step_order" style="width:100%;">
+     			<h2 class="step_name">Order</h2>
+			</button>
 		</div>
 		<div class="col-sm-4">
-			<div class="process_step" id="step_receive">
-				<div class="step_name">Receive</div>
-			</div>
+			<button class="btn btn-default" id="section_step_receive" style="width:100%;">
+     			<h2 class="step_name">Receive</h2>
+			</button>
 		</div>
 		<div class="col-sm-4">
-			<div class="process_step" id="step_enjoy">
-				<div class="step_name">Enjoy</div>
-			</div>∂
+			<button class="btn btn-default" id="section_step_enjoy" style="width:100%;">
+     			<h2 class="step_name">Enjoy</h2>
+			</button>
 		</div>
+
+
 	</div>
 </div>
 	
@@ -80,7 +82,7 @@
 <!--Footer bar -->
 <div class="main_footer_bar">
 	<!--Initial text in the footer bar above the white hr line-->
-	<p class="txt_join_pidgin">Pidgin is the <strong>first</strong> drone-food delivery service operating out of the United States. <em>Join the revolution.</em></p>
+	<h4 class="txt_join_pidgin">Pidgin is the <strong>first</strong> drone-food delivery service operating out of the United States. <em>Join the revolution.</em></h4>
 	<!--White divider line above main footer content-->
 	<hr class="hr footer_divide">
 	<div class="row" id="footer_row">

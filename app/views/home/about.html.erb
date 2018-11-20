@@ -8,7 +8,7 @@
 			<!--Loader, Login, Signup Buttons-->
 			<div class="div rep_section_btn">
 				<%= link_to 'About', '/about', class: 'btn_header' , id: "link_about" %>
-				<%= link_to 'Contact', '/contact', class: 'btn_header', id: "link_contact" %>
+				<%= link_to 'Contact', '/contact_us', class: 'btn_header', id: "link_contact" %>
 				<%= link_to 'FAQ', '/faq', class: 'btn_header', id: "link_faq" %>
 			</div>
 	</div>
@@ -19,7 +19,7 @@
 	If you have any more questions about Pidgin, please see our
 	<%=link_to "Frequently Asked Questions,", "/faq", id: "link_txt"%>
 	or 
-	<%=link_to "Contact Us.", "#", id: "link_txt"%>
+	<%=link_to "Contact Us.", "/contact_us", id: "link_txt"%>
 	We'd love to hear from you!
 </h4>
 <!--General Info-->
@@ -51,7 +51,7 @@
 <!--Footer bar -->
 <div class="main_footer_bar">
 	<!--Initial text in the footer bar above the white hr line-->
-	<p class="txt_join_pidgin">Pidgin is the <strong>first</strong> drone-food delivery service operating out of the United States. <em>Join the revolution.</em></p>
+	<h4 class="txt_join_pidgin">Pidgin is the <strong>first</strong> drone-food delivery service operating out of the United States. <em>Join the revolution.</em></h4>
 	<!--White divider line above main footer content-->
 	<hr class="hr footer_divide">
 	<div class="row" id="footer_row">

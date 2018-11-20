@@ -59,8 +59,60 @@ body{
 	padding-top: 13.5px;
 	line-height: 1rem;
 }
+.rep_section_btn .btn_header:hover{
+	border: 3px solid white;
+}
 #link_txt{
 	color: $pidgin;
 	background: none;
 	text-decoration: none;
+}
+/** This section is the footer bar*/
+//Main footer bar
+.main_footer_bar{
+	height: 30rem;
+	width: 100%;
+	background-color: black;
+	overflow: hidden;
+}
+//Join the revolution...
+.main_footer_bar .txt_join_pidgin{
+	font-size: 1.5rem;
+	font-family: "pidgin-txt";
+	margin: 2% 5% 0% 15%;
+	color: white;
+}
+//White divisor line
+.main_footer_bar .footer_divide{
+	border: 1px solid white;
+	margin: 1% 15% 0% 15%;
+}
+
+//Table for pidgin's information
+#footer_row{
+	background-color: none;
+	margin: 2% 15% 0% 15%;
+	height: 400px;
+}
+#footer_row #footer_pizza{
+	height: 100%;
+}
+#footer_pizza .img_footer_logo{
+	width: 100%;
+}
+#footer_section .ttl_section{
+	color: white;
+	text-align: center;
+}
+#footer_section .txt_info{
+	color: white;
+	font-family: "pidgin-txt";
+	text-align: center;
+	font-size: 1.15rem;
+}
+#footer_section .footer_link{
+	color: white;
+}
+#footer_section .footer_link:hover{
+	background: none;
 }
