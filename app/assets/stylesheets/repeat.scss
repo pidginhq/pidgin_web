@@ -24,8 +24,7 @@ body{
 	right: 0;
 	left: 0;
 	width: 100%;
-	min-height: 7rem;
-	max-height: 8rem;
+	height: 5rem;
 	@include linear-gradient($pidgin_dark, $pidgin_light);
 }
 //The #a_home reroutes back to the home/index page
@@ -40,7 +39,7 @@ body{
 //Header section for the "loader", "login", and "signup" buttons
 .rep_header_bar .rep_section_btn{
 	display: inline-block;
-	margin: 2% 0% 1% 30.5%;
+	margin: 2% 0% 1% 25%;
 	height: 2.5rem;
 	width: 32.5%;
 	display: flex;
