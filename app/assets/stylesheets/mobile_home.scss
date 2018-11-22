@@ -8,8 +8,8 @@
 	}
 	.top_header_bar #link_home{
 		margin: 8% 0% 5% 7%;
-		height: 10%;
-		width: 27.5%;
+		height: 30%;
+		width: 28%;
 	}
 	//Header section for the "loader", "login", and "signup" buttons
 	.top_header_bar .header_section_btn{
@@ -35,7 +35,6 @@
 	#header_subsection #img{
 		margin: 0 auto;
 		display: block;
-		background-color: blue;
 	}
 	#header_subsection .img_pizza_box{
 		position: fixed;
@@ -64,12 +63,13 @@
 	}
 	//Explanation section
 	.why_pidgin{
-		margin: 30rem auto;
+		margin: 35rem auto;
 		display: block;
 		width: 90%;
 	}
 	.why_pidgin .header{
-		text-align: center;
+		margin: 0% auto;
+		display: auto;
 	}
 	.why_pidgin .exp_why_pidgin{
 		min-width: 100%;
@@ -77,8 +77,8 @@
 		font-family: "pidgin-txt";
 	}
 	.order_process{
-		margin-top: -125%;
-		height: 45rem;
+		margin-top: -150%;
+		height: 60rem;
 		display: block;
 	}
 	.order_process .subheader{
