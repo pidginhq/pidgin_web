@@ -140,6 +140,7 @@ body{
 #form_pidgin_register .pidgin_register_email{
 	margin-top: 2.5%;
 	width: 100%;
+	border:none;
 }
 
 /** Moving on past the header bar, this section is "why pidgin?"*/
@@ -158,6 +159,7 @@ body{
 	display: inline-block;
 	font-family: "pidgin-txt";
 	text-align: just;
+	margin-top: 5%;
 	max-width: 40%;
 	font-size: 1.5rem;
 	line-height: 1.4rem;
@@ -181,19 +183,17 @@ body{
 //"How it works" h4
 .order_process .header{
 	text-align: center;
-	margin-top: 2%;
 	display: block;
 	font-family: "pidgin-body";
 }
 .order_process .subheader{
 	text-align: center;
-	margin-top: 2%;
 	display: block;
 	font-family: "pidgin-txt";
 }
 //This is for the three hover-buttons
 .order_process #process_section{
-	margin: 6% auto;
+	margin: 0% auto;
 	min-height: 13rem;
 	width: 60%;
 	overflow: hidden;
