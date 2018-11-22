@@ -65,11 +65,12 @@
 	.why_pidgin{
 		margin: 35rem auto;
 		display: block;
-		width: 90%;
+		width: 100%;
+		background-color: red;
 	}
 	.why_pidgin .header{
-		margin: 0% auto;
-		display: auto;
+		text-align: center;
+
 	}
 	.why_pidgin .exp_why_pidgin{
 		min-width: 100%;
@@ -89,7 +90,7 @@
 	}
 	//Footer bar
 	.main_footer_bar{
-		overflow: auto;
+	
 	}
 	.main_footer_bar .txt_join_pidgin{
 		width: 70%;
@@ -100,13 +101,5 @@
 	.img_drone{
 		width: .00001%;
 		visibility: hidden;
-	}
-	//Table
-	#footer_row{
-		height: 100%;
-		
-	}
-	#footer_row #footer_pizza{
-		height: 80px;
 	}
 }
