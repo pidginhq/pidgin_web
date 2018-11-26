@@ -22572,3 +22572,11 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 181ms (Views: 165.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-11-25 22:11:33 -0500
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (4419.9ms)
+Completed 200 OK in 4756ms (Views: 4732.2ms | ActiveRecord: 0.0ms)
+
+
