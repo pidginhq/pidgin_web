@@ -29,9 +29,14 @@ body{
 }
 //The #a_home reroutes back to the home/index page
 .rep_header_bar #link_home{
-	margin: 8% 0% 5% 7%;
-	height: 32%;
-	width: 28%;
+	positon: absolute;
+	display: block;
+	margin: 2% 0% 1% 15.7%;
+	width: 6.75rem;
+	height: 2rem;
+	color: white;
+	font-family: "pidgin";
+	text-decoration: none;
 }
 //Header section for the "loader", "login", and "signup" buttons
 .rep_header_bar .rep_section_btn{
