@@ -23092,3 +23092,104 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 147ms (Views: 141.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-11-26 21:32:50 -0500
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (7297.4ms)
+Completed 200 OK in 7530ms (Views: 7515.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 21:33:12 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 156ms (Views: 145.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact?email=scmaina%40ncsu.edu" for 127.0.0.1 at 2018-11-26 21:33:30 -0500
+Processing by WaitlistsController#new as HTML
+  Parameters: {"email"=>"scmaina@ncsu.edu"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (18.6ms)[0m  [1m[32mINSERT INTO "waitlists" ("email", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["email", "scmaina@ncsu.edu"], ["created_at", "2018-11-27 02:33:31.018905"], ["updated_at", "2018-11-27 02:33:31.018905"]]
+  [1m[35m (4.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  Rendering pidgin_mailer/signup_email.html.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.html.erb within layouts/mailer (0.9ms)
+  Rendering pidgin_mailer/signup_email.text.erb within layouts/mailer
+  Rendered pidgin_mailer/signup_email.text.erb within layouts/mailer (1.1ms)
+PidginMailer#signup_email: processed outbound mail in 850.3ms
+Sent mail to scmaina@ncsu.edu (1680.4ms)
+Date: Mon, 26 Nov 2018 21:33:32 -0500
+From: pidgin.hq@gmail.com
+To: scmaina@ncsu.edu
+Message-ID: <5bfcacfc6d22b_aa73fd8a874b6f07165e@ParticipateAdmins-MacBook-Air.local.mail>
+Subject: Welcome to Pidgin!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bfcacfc6a582_aa73fd8a874b6f07155e";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bfcacfc6a582_aa73fd8a874b6f07155e
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to pidgindelivery.com!
+===============================================
+You have made the awesome choice to #jointherevolution
+with pidgindelivery.com, your username is: @user.email
+We can't wait to start delivering to you soon!
+
+----==_mimepart_5bfcacfc6a582_aa73fd8a874b6f07155e
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1 style="text-align: center; color: #F2975a;">Welcome to Pidgin!</h1>
+	<p style="font-family: 'pidgin-txt';">
+    	You have made the awesome choice to #jointherevolution
+    	with pidgindelivery.com! We are onto big things here at 
+    	Pidgin, and we can't wait for you to be a part of it!
+	</p>
+	<p style="font-family: 'pidgin-txt';">
+		We will keep you updated on how we're changing the world
+		by contacting you at scmaina@ncsu.edu, and most importantly, 
+    	we will let you know when you'll get to be a part of it!
+	</p>
+<p>
+	Sincerely, <br>
+	Owners at Pidgin
+	<br><br><br>
+	&copy; Pidgin, 2018 All Rights Reserved.
+</p>
+  </body>
+</html>
+
+----==_mimepart_5bfcacfc6a582_aa73fd8a874b6f07155e--
+
+  Rendering waitlists/new.html.erb within layouts/application
+  Rendered waitlists/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3294ms (Views: 92.7ms | ActiveRecord: 76.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-26 21:33:36 -0500
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 104ms (Views: 92.1ms | ActiveRecord: 0.0ms)
+
+
