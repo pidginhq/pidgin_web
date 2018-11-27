@@ -29,27 +29,22 @@ body{
 }
 //The #a_home reroutes back to the home/index page
 .rep_header_bar #link_home{
-	positon: absolute;
-	display: block;
-	margin: 2% 0% 1% 15.75%;
-	width: 6.75rem;
-	height: 2rem;
-	color: white;
-	font-family: "pidgin";
-	text-decoration: none;
+	margin: 8% 0% 5% 7%;
+	height: 32%;
+	width: 28%;
 }
 //Header section for the "loader", "login", and "signup" buttons
 .rep_header_bar .rep_section_btn{
 	position: absolute;
 	margin: 2% 0% 1% 51.45%;
 	height: 2.5rem;
-	width: 32.5%;
+	width: 35%;
 	display: flex;
 
 }
 .rep_section_btn .btn_header{
 	height: 2.5rem;
-	width: 20rem;
+	width: 222rem;
 	border: 1px solid white;
 	background: transparent;
 	color: white;
