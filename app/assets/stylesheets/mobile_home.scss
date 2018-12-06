@@ -9,7 +9,7 @@
 	.top_header_bar #link_home{
 		margin: 8% 0% 5% 7%;
 		height: 30%;
-		width: 28%;
+		width: 26%;
 	}
 	//Header section for the "loader", "login", and "signup" buttons
 	.top_header_bar .header_section_btn{
@@ -86,13 +86,15 @@
 		height: 60rem;
 		display: block;
 	}
+	//Ordering from pidgin is easy...
 	.order_process .subheader{
 		font-family: "pidgin-txt";
 	}
+	//Process section
 	.order_process #process_section{
 		width: 65%;
 	}
-	#process_section div{
-		width: 110%;
+	#process_section button{
+		width: 100%;
 	}
 }
