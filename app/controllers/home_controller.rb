@@ -18,7 +18,7 @@ class HomeController < ApplicationController
 		@contact.name = params[:name]
 		@contact.email = params[:email]
 		@contact.subject = params[:subject]
-		@contact.mail_message = params[:mail_message]
+		@contact.mail_message = params[:message]
 		@contact.save
 	end
 end
